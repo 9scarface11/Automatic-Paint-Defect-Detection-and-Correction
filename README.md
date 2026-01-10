@@ -24,6 +24,17 @@ The `robotics/` directory demonstrates deployment of the trained model inside a 
 ## Dataset
 The dataset is not included. Refer to `cnn/dataset.md` for details.
 
+## Model Weights
+
+The trained ResNet18 model (~45 MB) is provided separately via GitHub Releases.
+
+Download link:
+https://github.com/9scarface11/Automatic-Paint-Defect-Detection-and-Correction/releases
+
+Expected path:
+models/paint_defect_resnet18.pth
+
 ---
 
 This repository demonstrates practical application of convolutional neural networks for industrial defect detection, along with optional system-level integration.
+
