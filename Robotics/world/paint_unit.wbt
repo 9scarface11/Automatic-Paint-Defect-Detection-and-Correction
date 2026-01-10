@@ -1,0 +1,85 @@
+#VRML_SIM R2025a utf8
+
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/backgrounds/protos/TexturedBackground.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/backgrounds/protos/TexturedBackgroundLight.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/floors/protos/RectangleArena.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/appearances/protos/Parquetry.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/factory/conveyors/protos/ConveyorBelt.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/tables/protos/Table.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/appearances/protos/VarnishedPine.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/robots/universal_robots/protos/UR10e.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/computers/protos/Monitor.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/balls/protos/Ball.proto"
+
+WorldInfo {
+}
+Viewpoint {
+  orientation -0.21555972024165418 -0.009349690610975264 0.9764458972696946 3.226259938674514
+  position 6.50302384809243 0.8713273381598795 3.152349121403094
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+RectangleArena {
+  floorSize 10 10
+  floorAppearance Parquetry {
+    type "light strip"
+    colorOverride 0.215686 0.215686 0.215686
+  }
+  wallHeight 1
+}
+ConveyorBelt {
+  translation -2.59611 -0.0338318 8.88178e-16
+  size 4 0.6 0.6
+}
+Table {
+  translation -1.91144 0.89879 3.6593e-13
+  rotation 0 0 1 1.5708
+  trayAppearance VarnishedPine {
+    colorOverride 0 0 0
+    textureTransform TextureTransform {
+      scale 10 10
+    }
+  }
+  legAppearance VarnishedPine {
+    colorOverride 0 0 0
+    textureTransform TextureTransform {
+      scale 4 5
+    }
+  }
+}
+UR10e {
+  hidden translation_1 0 0 0.181
+  hidden rotation_1 0 0 -1 0.00039511051621500233
+  hidden translation_2 0 0.176 0
+  hidden rotation_2 0 1 0 1.5710315274767694
+  hidden translation_3 0 -0.137 0.613
+  hidden rotation_3 0 0.9999999999999999 0 5.2597916065235405e-05
+  hidden translation_4 0 0 0.571
+  hidden rotation_4 0 1 0 1.5707765544744885
+  hidden translation_5 0 0.135 0
+  hidden rotation_5 0 0 0.9999999999999999 4.4203987640712727e-07
+  hidden translation_6 0 0 0.12
+  translation -2.37741 0.79525 0.74
+  rotation 0 0 1 -1.5707953071795862
+  controller "ur10_controller"
+  toolSlot [
+    Camera {
+      translation 0 0 0.05
+      rotation 0.7071067811865475 -0.7071067811865475 0 3.141592
+      name "paint_camera"
+      fieldOfView 1
+      width 640
+      height 640
+    }
+  ]
+}
+Monitor {
+  translation -1.67386 0.74265 0.74
+  rotation 0 0 1 1.5708
+}
+Ball {
+  translation -0.32923485738876956 0.8010153416838113 0.032413671999999914
+  rotation 2.380451665229496e-06 2.3195578802720197e-05 0.9999999997281492 0.8826535408772476
+}
