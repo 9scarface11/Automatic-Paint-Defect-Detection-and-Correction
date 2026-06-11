@@ -1,0 +1,1146 @@
+[0.030s] Invoking command in '/home/mehul-rathore/ros2_ws/build/ur_dashboard_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/mehul-rathore/ros2_ws/src/Universal_Robots_ROS2_Driver/ur_dashboard_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs
+[0.132s] -- The C compiler identification is GNU 13.3.0
+[0.201s] -- The CXX compiler identification is GNU 13.3.0
+[0.236s] -- Detecting C compiler ABI info
+[0.399s] -- Detecting C compiler ABI info - done
+[0.414s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.415s] -- Detecting C compile features
+[0.417s] -- Detecting C compile features - done
+[0.438s] -- Detecting CXX compiler ABI info
+[0.638s] -- Detecting CXX compiler ABI info - done
+[0.651s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.652s] -- Detecting CXX compile features
+[0.652s] -- Detecting CXX compile features - done
+[0.667s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.905s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.000s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.070s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[1.097s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.248s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.407s] -- Found rosidl_adapter: 4.6.7 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[1.433s] -- Found action_msgs: 2.0.3 (/opt/ros/jazzy/share/action_msgs/cmake)
+[2.631s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[3.297s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.129s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.144s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[4.360s] -- Found PythonExtra: /usr/bin/python3  
+[5.013s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[5.137s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[5.198s] -- Configuring done (5.1s)
+[5.329s] -- Generating done (0.1s)
+[5.346s] -- Build files have been written to: /home/mehul-rathore/ros2_ws/build/ur_dashboard_msgs
+[5.377s] Invoked command in '/home/mehul-rathore/ros2_ws/build/ur_dashboard_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/mehul-rathore/ros2_ws/src/Universal_Robots_ROS2_Driver/ur_dashboard_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs
+[5.377s] Invoking command in '/home/mehul-rathore/ros2_ws/build/ur_dashboard_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/mehul-rathore/ros2_ws/build/ur_dashboard_msgs -- -j6 -l6
+[5.514s] [  0%] [34m[1mGenerating Rust code for ROS interfaces[0m
+[5.530s] [  0%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[5.558s] [  0%] Built target ament_cmake_python_symlink_ur_dashboard_msgs
+[5.838s] running egg_info
+[5.865s] creating ur_dashboard_msgs.egg-info
+[5.867s] writing ur_dashboard_msgs.egg-info/PKG-INFO
+[5.867s] writing dependency_links to ur_dashboard_msgs.egg-info/dependency_links.txt
+[5.867s] writing top-level names to ur_dashboard_msgs.egg-info/top_level.txt
+[5.868s] writing manifest file 'ur_dashboard_msgs.egg-info/SOURCES.txt'
+[5.937s] reading manifest file 'ur_dashboard_msgs.egg-info/SOURCES.txt'
+[5.937s] writing manifest file 'ur_dashboard_msgs.egg-info/SOURCES.txt'
+[5.997s] [  0%] Built target ament_cmake_python_build_ur_dashboard_msgs_egg
+[6.659s] [  0%] Built target ur_dashboard_msgs__rosidl_generator_type_description
+[6.668s] [  0%] Built target ur_dashboard_msgs__rs
+[6.694s] [  0%] [34m[1mGenerating C code for ROS interfaces[0m
+[6.707s] [  0%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[10.156s] [  0%] Built target ur_dashboard_msgs__cpp
+[10.929s] [  0%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/msg/detail/program_information__functions.c.o[0m
+[10.930s] [  1%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/msg/detail/program_information__description.c.o[0m
+[10.936s] [  1%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/msg/detail/program_information__type_support.c.o[0m
+[10.939s] [  1%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/msg/detail/program_state__type_support.c.o[0m
+[10.944s] [  1%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/msg/detail/program_state__description.c.o[0m
+[10.944s] [  2%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/msg/detail/program_state__functions.c.o[0m
+[11.070s] [  2%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/msg/detail/robot_mode__description.c.o[0m
+[11.073s] [  3%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/msg/detail/robot_mode__functions.c.o[0m
+[11.081s] [  3%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/msg/detail/robot_mode__type_support.c.o[0m
+[11.106s] [  3%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/msg/detail/safety_mode__description.c.o[0m
+[11.125s] [  3%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/msg/detail/safety_mode__functions.c.o[0m
+[11.131s] [  4%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/msg/detail/safety_mode__type_support.c.o[0m
+[11.154s] [  4%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/msg/detail/operational_mode__description.c.o[0m
+[11.160s] [  5%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/msg/detail/operational_mode__type_support.c.o[0m
+[11.166s] [  5%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/msg/detail/user_role__description.c.o[0m
+[11.170s] [  5%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/msg/detail/operational_mode__functions.c.o[0m
+[11.211s] [  5%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/msg/detail/user_role__functions.c.o[0m
+[11.224s] [  5%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/msg/detail/version_information__functions.c.o[0m
+[11.226s] [  5%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/msg/detail/user_role__type_support.c.o[0m
+[11.233s] [  6%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/msg/detail/version_information__description.c.o[0m
+[11.239s] [  6%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/msg/detail/version_information__type_support.c.o[0m
+[11.270s] [  7%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/msg/detail/safety_status__description.c.o[0m
+[11.292s] [  7%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/msg/detail/safety_status__type_support.c.o[0m
+[11.293s] [  7%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/msg/detail/safety_status__functions.c.o[0m
+[11.314s] [  7%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/srv/detail/add_to_log__description.c.o[0m
+[11.314s] [  8%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/srv/detail/add_to_log__functions.c.o[0m
+[11.337s] [  8%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/srv/detail/add_to_log__type_support.c.o[0m
+[11.361s] [  8%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/srv/detail/download_program__description.c.o[0m
+[11.379s] [  9%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/srv/detail/download_program__functions.c.o[0m
+[11.386s] [  9%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/srv/detail/download_program__type_support.c.o[0m
+[11.421s] [  9%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/srv/detail/get_loaded_program__description.c.o[0m
+[11.422s] [  9%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/srv/detail/get_loaded_program__functions.c.o[0m
+[11.467s] [ 10%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/srv/detail/get_loaded_program__type_support.c.o[0m
+[11.486s] [ 10%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/srv/detail/get_programs__type_support.c.o[0m
+[11.491s] [ 10%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/srv/detail/get_programs__description.c.o[0m
+[11.497s] [ 10%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/srv/detail/get_programs__functions.c.o[0m
+[11.519s] [ 11%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/srv/detail/get_program_state__description.c.o[0m
+[11.562s] [ 11%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/srv/detail/get_program_state__functions.c.o[0m
+[11.578s] [ 11%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/srv/detail/get_program_state__type_support.c.o[0m
+[11.595s] [ 12%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/srv/detail/get_robot_mode__description.c.o[0m
+[11.620s] [ 12%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/srv/detail/get_robot_mode__type_support.c.o[0m
+[11.627s] [ 12%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/srv/detail/get_robot_mode__functions.c.o[0m
+[11.633s] [ 12%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/srv/detail/get_safety_mode__description.c.o[0m
+[11.654s] [ 13%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/srv/detail/get_safety_mode__functions.c.o[0m
+[11.696s] [ 13%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/srv/detail/get_safety_mode__type_support.c.o[0m
+[11.697s] [ 13%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/srv/detail/is_program_running__description.c.o[0m
+[11.716s] [ 14%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/srv/detail/is_program_running__functions.c.o[0m
+[11.755s] [ 14%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/srv/detail/is_program_running__type_support.c.o[0m
+[11.761s] [ 14%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/srv/detail/is_program_saved__description.c.o[0m
+[11.770s] [ 14%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/srv/detail/is_program_saved__functions.c.o[0m
+[11.799s] [ 15%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/srv/detail/is_program_saved__type_support.c.o[0m
+[11.835s] [ 15%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/srv/detail/load__description.c.o[0m
+[11.840s] [ 15%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/srv/detail/load__functions.c.o[0m
+[11.845s] [ 16%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/srv/detail/load__type_support.c.o[0m
+[11.872s] [ 16%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/srv/detail/popup__functions.c.o[0m
+[11.880s] [ 16%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/srv/detail/popup__type_support.c.o[0m
+[11.894s] [ 16%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/srv/detail/popup__description.c.o[0m
+[11.924s] [ 17%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/srv/detail/raw_request__description.c.o[0m
+[11.940s] [ 17%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/srv/detail/raw_request__functions.c.o[0m
+[11.953s] [ 17%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/srv/detail/raw_request__type_support.c.o[0m
+[11.977s] [ 18%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/srv/detail/is_in_remote_control__description.c.o[0m
+[11.993s] [ 18%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/srv/detail/is_in_remote_control__functions.c.o[0m
+[12.026s] [ 18%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/srv/detail/is_in_remote_control__type_support.c.o[0m
+[12.030s] [ 18%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/srv/detail/upload_program__description.c.o[0m
+[12.052s] [ 18%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/srv/detail/upload_program__type_support.c.o[0m
+[12.080s] [ 19%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/srv/detail/upload_program__functions.c.o[0m
+[12.093s] [ 20%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/srv/detail/get_poly_scope_version__functions.c.o[0m
+[12.103s] [ 20%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/srv/detail/get_poly_scope_version__description.c.o[0m
+[12.121s] [ 20%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/srv/detail/get_poly_scope_version__type_support.c.o[0m
+[12.141s] [ 20%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/srv/detail/get_serial_number__description.c.o[0m
+[12.141s] [ 20%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/srv/detail/get_serial_number__functions.c.o[0m
+[12.188s] [ 21%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/srv/detail/get_serial_number__type_support.c.o[0m
+[12.205s] [ 21%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/srv/detail/get_user_role__description.c.o[0m
+[12.220s] [ 21%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/srv/detail/get_user_role__functions.c.o[0m
+[12.230s] [ 21%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/srv/detail/get_user_role__type_support.c.o[0m
+[12.254s] [ 22%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/srv/detail/set_user_role__description.c.o[0m
+[12.273s] [ 22%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/srv/detail/set_user_role__functions.c.o[0m
+[12.299s] [ 23%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/srv/detail/set_operational_mode__description.c.o[0m
+[12.316s] [ 23%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/srv/detail/set_user_role__type_support.c.o[0m
+[12.328s] [ 23%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/srv/detail/set_operational_mode__functions.c.o[0m
+[12.358s] [ 23%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/srv/detail/set_operational_mode__type_support.c.o[0m
+[12.388s] [ 24%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/srv/detail/get_operational_mode__functions.c.o[0m
+[12.388s] [ 24%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/srv/detail/get_operational_mode__description.c.o[0m
+[12.410s] [ 24%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/srv/detail/get_operational_mode__type_support.c.o[0m
+[12.416s] [ 24%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/srv/detail/get_robot_model__description.c.o[0m
+[12.439s] [ 25%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/srv/detail/get_robot_model__functions.c.o[0m
+[12.471s] [ 25%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/srv/detail/get_robot_model__type_support.c.o[0m
+[12.475s] [ 25%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/srv/detail/get_safety_status__description.c.o[0m
+[12.488s] [ 25%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/srv/detail/get_safety_status__functions.c.o[0m
+[12.511s] [ 25%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/srv/detail/generate_flight_report__description.c.o[0m
+[12.516s] [ 26%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/srv/detail/get_safety_status__type_support.c.o[0m
+[12.544s] [ 26%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/srv/detail/generate_flight_report__functions.c.o[0m
+[12.560s] [ 27%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/srv/detail/generate_flight_report__type_support.c.o[0m
+[12.587s] [ 27%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/srv/detail/generate_support_file__description.c.o[0m
+[12.591s] [ 27%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/srv/detail/generate_support_file__type_support.c.o[0m
+[12.598s] [ 27%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/srv/detail/generate_support_file__functions.c.o[0m
+[12.635s] [ 27%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/action/detail/set_mode__functions.c.o[0m
+[12.653s] [ 28%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/action/detail/set_mode__description.c.o[0m
+[12.677s] [ 28%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/action/detail/set_mode__type_support.c.o[0m
+[12.851s] [ 29%] [32m[1mLinking C shared library libur_dashboard_msgs__rosidl_generator_c.so[0m
+[12.945s] [ 29%] Built target ur_dashboard_msgs__rosidl_generator_c
+[12.965s] [ 29%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[12.966s] [ 30%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[12.985s] [ 30%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[12.991s] [ 30%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[12.991s] [ 30%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[14.923s] [ 30%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ur_dashboard_msgs/msg/program_information__type_support.cpp.o[0m
+[14.998s] [ 30%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ur_dashboard_msgs/msg/program_state__type_support.cpp.o[0m
+[15.043s] [ 31%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ur_dashboard_msgs/msg/robot_mode__type_support.cpp.o[0m
+[15.092s] [ 31%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ur_dashboard_msgs/msg/safety_mode__type_support.cpp.o[0m
+[15.198s] [ 31%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ur_dashboard_msgs/msg/operational_mode__type_support.cpp.o[0m
+[15.261s] [ 31%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ur_dashboard_msgs/msg/user_role__type_support.cpp.o[0m
+[15.365s] [ 32%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ur_dashboard_msgs/msg/version_information__type_support.cpp.o[0m
+[15.470s] [ 32%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ur_dashboard_msgs/msg/safety_status__type_support.cpp.o[0m
+[15.579s] [ 32%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ur_dashboard_msgs/srv/add_to_log__type_support.cpp.o[0m
+[15.671s] [ 32%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ur_dashboard_msgs/srv/download_program__type_support.cpp.o[0m
+[15.786s] [ 33%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ur_dashboard_msgs/srv/get_loaded_program__type_support.cpp.o[0m
+[15.877s] [ 33%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ur_dashboard_msgs/srv/get_programs__type_support.cpp.o[0m
+[15.963s] [ 33%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ur_dashboard_msgs/srv/get_program_state__type_support.cpp.o[0m
+[16.083s] [ 34%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ur_dashboard_msgs/srv/get_robot_mode__type_support.cpp.o[0m
+[16.200s] [ 34%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ur_dashboard_msgs/srv/get_safety_mode__type_support.cpp.o[0m
+[16.265s] [ 34%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ur_dashboard_msgs/srv/is_program_running__type_support.cpp.o[0m
+[16.322s] [ 34%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ur_dashboard_msgs/srv/is_program_saved__type_support.cpp.o[0m
+[16.342s] [ 34%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ur_dashboard_msgs/msg/detail/program_information__type_support.cpp.o[0m
+[16.387s] [ 35%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ur_dashboard_msgs/srv/load__type_support.cpp.o[0m
+[16.443s] [ 35%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ur_dashboard_msgs/srv/popup__type_support.cpp.o[0m
+[16.542s] [ 35%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ur_dashboard_msgs/srv/raw_request__type_support.cpp.o[0m
+[16.590s] [ 35%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ur_dashboard_msgs/msg/detail/program_information__type_support.c.o[0m
+[16.627s] [ 36%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ur_dashboard_msgs/srv/is_in_remote_control__type_support.cpp.o[0m
+[16.673s] [ 37%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ur_dashboard_msgs/msg/detail/program_state__type_support.c.o[0m
+[16.706s] [ 37%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ur_dashboard_msgs/srv/upload_program__type_support.cpp.o[0m
+[16.749s] [ 37%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ur_dashboard_msgs/msg/detail/robot_mode__type_support.c.o[0m
+[16.806s] [ 37%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ur_dashboard_msgs/srv/get_poly_scope_version__type_support.cpp.o[0m
+[16.812s] [ 37%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ur_dashboard_msgs/msg/detail/safety_mode__type_support.c.o[0m
+[16.892s] [ 38%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ur_dashboard_msgs/msg/detail/operational_mode__type_support.c.o[0m
+[16.899s] [ 38%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ur_dashboard_msgs/srv/get_serial_number__type_support.cpp.o[0m
+[16.967s] [ 38%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ur_dashboard_msgs/msg/detail/user_role__type_support.c.o[0m
+[16.992s] [ 39%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ur_dashboard_msgs/srv/get_user_role__type_support.cpp.o[0m
+[16.993s] [ 40%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ur_dashboard_msgs/msg/detail/program_state__type_support.cpp.o[0m
+[17.033s] [ 40%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ur_dashboard_msgs/msg/detail/version_information__type_support.c.o[0m
+[17.059s] [ 40%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ur_dashboard_msgs/srv/set_user_role__type_support.cpp.o[0m
+[17.092s] [ 40%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ur_dashboard_msgs/msg/detail/safety_status__type_support.c.o[0m
+[17.142s] [ 40%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ur_dashboard_msgs/srv/set_operational_mode__type_support.cpp.o[0m
+[17.156s] [ 41%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ur_dashboard_msgs/srv/detail/add_to_log__type_support.c.o[0m
+[17.245s] [ 42%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ur_dashboard_msgs/srv/get_operational_mode__type_support.cpp.o[0m
+[17.267s] [ 42%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ur_dashboard_msgs/srv/detail/download_program__type_support.c.o[0m
+[17.336s] [ 42%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ur_dashboard_msgs/srv/detail/get_loaded_program__type_support.c.o[0m
+[17.349s] [ 42%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ur_dashboard_msgs/srv/get_robot_model__type_support.cpp.o[0m
+[17.414s] [ 42%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ur_dashboard_msgs/srv/get_safety_status__type_support.cpp.o[0m
+[17.426s] [ 42%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ur_dashboard_msgs/msg/detail/robot_mode__type_support.cpp.o[0m
+[17.432s] [ 42%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ur_dashboard_msgs/srv/detail/get_programs__type_support.c.o[0m
+[17.481s] [ 42%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ur_dashboard_msgs/srv/generate_flight_report__type_support.cpp.o[0m
+[17.528s] [ 43%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ur_dashboard_msgs/srv/detail/get_program_state__type_support.c.o[0m
+[17.571s] [ 44%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ur_dashboard_msgs/srv/generate_support_file__type_support.cpp.o[0m
+[17.601s] [ 44%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ur_dashboard_msgs/srv/detail/get_robot_mode__type_support.c.o[0m
+[17.655s] [ 44%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ur_dashboard_msgs/action/set_mode__type_support.cpp.o[0m
+[17.715s] [ 44%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ur_dashboard_msgs/srv/detail/get_safety_mode__type_support.c.o[0m
+[17.759s] [ 44%] [32m[1mLinking CXX shared library libur_dashboard_msgs__rosidl_typesupport_c.so[0m
+[17.776s] [ 45%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ur_dashboard_msgs/msg/detail/dds_fastrtps/program_information__type_support.cpp.o[0m
+[17.785s] [ 45%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ur_dashboard_msgs/msg/detail/safety_mode__type_support.cpp.o[0m
+[17.791s] [ 46%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ur_dashboard_msgs/msg/detail/program_information__type_support_c.cpp.o[0m
+[17.797s] [ 47%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ur_dashboard_msgs/srv/detail/is_program_running__type_support.c.o[0m
+[17.862s] [ 47%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ur_dashboard_msgs/srv/detail/is_program_saved__type_support.c.o[0m
+[17.866s] [ 47%] Built target ur_dashboard_msgs__rosidl_typesupport_c
+[17.897s] [ 48%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[17.915s] [ 48%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ur_dashboard_msgs/msg/detail/program_state__type_support_c.cpp.o[0m
+[18.067s] [ 48%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ur_dashboard_msgs/srv/detail/load__type_support.c.o[0m
+[18.094s] [ 48%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ur_dashboard_msgs/msg/detail/operational_mode__type_support.cpp.o[0m
+[18.144s] [ 48%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ur_dashboard_msgs/srv/detail/popup__type_support.c.o[0m
+[18.190s] [ 49%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ur_dashboard_msgs/srv/detail/raw_request__type_support.c.o[0m
+[18.247s] [ 49%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ur_dashboard_msgs/srv/detail/is_in_remote_control__type_support.c.o[0m
+[18.332s] [ 49%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ur_dashboard_msgs/srv/detail/upload_program__type_support.c.o[0m
+[18.358s] [ 50%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ur_dashboard_msgs/srv/detail/get_poly_scope_version__type_support.c.o[0m
+[18.392s] [ 50%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ur_dashboard_msgs/msg/detail/dds_fastrtps/program_state__type_support.cpp.o[0m
+[18.396s] [ 50%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ur_dashboard_msgs/srv/detail/get_serial_number__type_support.c.o[0m
+[18.439s] [ 51%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ur_dashboard_msgs/msg/detail/user_role__type_support.cpp.o[0m
+[18.453s] [ 51%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ur_dashboard_msgs/msg/detail/robot_mode__type_support_c.cpp.o[0m
+[18.478s] [ 51%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ur_dashboard_msgs/srv/detail/get_user_role__type_support.c.o[0m
+[18.560s] [ 51%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ur_dashboard_msgs/msg/detail/version_information__type_support.cpp.o[0m
+[18.560s] [ 51%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ur_dashboard_msgs/srv/detail/set_user_role__type_support.c.o[0m
+[18.742s] [ 52%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ur_dashboard_msgs/srv/detail/set_operational_mode__type_support.c.o[0m
+[18.836s] [ 52%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ur_dashboard_msgs/msg/detail/safety_status__type_support.cpp.o[0m
+[18.839s] [ 52%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ur_dashboard_msgs/srv/detail/get_operational_mode__type_support.c.o[0m
+[18.908s] [ 52%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ur_dashboard_msgs/srv/detail/get_robot_model__type_support.c.o[0m
+[18.908s] [ 53%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ur_dashboard_msgs/msg/detail/safety_mode__type_support_c.cpp.o[0m
+[18.961s] [ 53%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ur_dashboard_msgs/srv/detail/add_to_log__type_support.cpp.o[0m
+[19.021s] [ 54%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ur_dashboard_msgs/srv/detail/get_safety_status__type_support.c.o[0m
+[19.024s] [ 54%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ur_dashboard_msgs/msg/detail/dds_fastrtps/robot_mode__type_support.cpp.o[0m
+[19.077s] [ 54%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ur_dashboard_msgs/srv/detail/generate_flight_report__type_support.c.o[0m
+[19.143s] [ 54%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ur_dashboard_msgs/srv/detail/generate_support_file__type_support.c.o[0m
+[19.210s] [ 55%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ur_dashboard_msgs/srv/detail/download_program__type_support.cpp.o[0m
+[19.239s] [ 55%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ur_dashboard_msgs/action/detail/set_mode__type_support.c.o[0m
+[19.335s] [ 56%] [32m[1mLinking C shared library libur_dashboard_msgs__rosidl_typesupport_introspection_c.so[0m
+[19.472s] [ 56%] Built target ur_dashboard_msgs__rosidl_typesupport_introspection_c
+[19.502s] [ 56%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ur_dashboard_msgs/msg/detail/dds_fastrtps/safety_mode__type_support.cpp.o[0m
+[19.535s] [ 56%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ur_dashboard_msgs/msg/detail/operational_mode__type_support_c.cpp.o[0m
+[19.595s] [ 56%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ur_dashboard_msgs/srv/detail/get_loaded_program__type_support.cpp.o[0m
+[19.706s] [ 56%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ur_dashboard_msgs/srv/detail/get_programs__type_support.cpp.o[0m
+[19.765s] [ 57%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ur_dashboard_msgs/msg/detail/dds_fastrtps/operational_mode__type_support.cpp.o[0m
+[20.015s] [ 57%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ur_dashboard_msgs/msg/detail/dds_fastrtps/user_role__type_support.cpp.o[0m
+[20.049s] [ 57%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ur_dashboard_msgs/msg/detail/dds_fastrtps/version_information__type_support.cpp.o[0m
+[20.104s] [ 57%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ur_dashboard_msgs/msg/detail/user_role__type_support_c.cpp.o[0m
+[20.308s] [ 57%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ur_dashboard_msgs/msg/program_information__type_support.cpp.o[0m
+[20.313s] [ 57%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ur_dashboard_msgs/msg/detail/dds_fastrtps/safety_status__type_support.cpp.o[0m
+[20.381s] [ 58%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ur_dashboard_msgs/srv/detail/get_program_state__type_support.cpp.o[0m
+[20.467s] [ 59%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ur_dashboard_msgs/srv/detail/dds_fastrtps/add_to_log__type_support.cpp.o[0m
+[20.613s] [ 59%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ur_dashboard_msgs/srv/detail/dds_fastrtps/download_program__type_support.cpp.o[0m
+[20.711s] [ 59%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ur_dashboard_msgs/msg/program_state__type_support.cpp.o[0m
+[20.735s] [ 59%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ur_dashboard_msgs/msg/detail/version_information__type_support_c.cpp.o[0m
+[21.006s] [ 59%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ur_dashboard_msgs/srv/detail/dds_fastrtps/get_loaded_program__type_support.cpp.o[0m
+[21.008s] [ 59%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ur_dashboard_msgs/srv/detail/get_robot_mode__type_support.cpp.o[0m
+[21.030s] [ 59%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ur_dashboard_msgs/msg/robot_mode__type_support.cpp.o[0m
+[21.306s] [ 60%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ur_dashboard_msgs/msg/detail/safety_status__type_support_c.cpp.o[0m
+[21.340s] [ 61%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ur_dashboard_msgs/srv/detail/dds_fastrtps/get_programs__type_support.cpp.o[0m
+[21.463s] [ 62%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ur_dashboard_msgs/msg/safety_mode__type_support.cpp.o[0m
+[21.533s] [ 62%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ur_dashboard_msgs/srv/detail/dds_fastrtps/get_program_state__type_support.cpp.o[0m
+[21.599s] [ 62%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ur_dashboard_msgs/srv/detail/get_safety_mode__type_support.cpp.o[0m
+[21.900s] [ 62%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ur_dashboard_msgs/srv/detail/dds_fastrtps/get_robot_mode__type_support.cpp.o[0m
+[21.900s] [ 62%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ur_dashboard_msgs/srv/detail/add_to_log__type_support_c.cpp.o[0m
+[21.906s] [ 62%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ur_dashboard_msgs/msg/operational_mode__type_support.cpp.o[0m
+[22.159s] [ 62%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ur_dashboard_msgs/srv/detail/download_program__type_support_c.cpp.o[0m
+[22.275s] [ 62%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ur_dashboard_msgs/msg/user_role__type_support.cpp.o[0m
+[22.314s] [ 62%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ur_dashboard_msgs/srv/detail/get_loaded_program__type_support_c.cpp.o[0m
+[22.388s] [ 62%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ur_dashboard_msgs/srv/detail/is_program_running__type_support.cpp.o[0m
+[22.722s] [ 63%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ur_dashboard_msgs/srv/detail/get_programs__type_support_c.cpp.o[0m
+[22.767s] [ 63%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ur_dashboard_msgs/msg/version_information__type_support.cpp.o[0m
+[23.066s] [ 63%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ur_dashboard_msgs/srv/detail/dds_fastrtps/get_safety_mode__type_support.cpp.o[0m
+[23.090s] [ 63%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ur_dashboard_msgs/srv/detail/get_program_state__type_support_c.cpp.o[0m
+[23.166s] [ 64%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ur_dashboard_msgs/srv/detail/dds_fastrtps/is_program_running__type_support.cpp.o[0m
+[23.187s] [ 65%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ur_dashboard_msgs/srv/detail/is_program_saved__type_support.cpp.o[0m
+[23.337s] [ 66%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ur_dashboard_msgs/msg/safety_status__type_support.cpp.o[0m
+[23.716s] [ 66%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ur_dashboard_msgs/srv/detail/get_robot_mode__type_support_c.cpp.o[0m
+[23.928s] [ 66%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ur_dashboard_msgs/srv/detail/dds_fastrtps/is_program_saved__type_support.cpp.o[0m
+[23.955s] [ 67%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ur_dashboard_msgs/srv/detail/get_safety_mode__type_support_c.cpp.o[0m
+[24.003s] [ 67%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ur_dashboard_msgs/srv/detail/dds_fastrtps/load__type_support.cpp.o[0m
+[24.016s] [ 67%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ur_dashboard_msgs/srv/add_to_log__type_support.cpp.o[0m
+[24.061s] [ 67%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ur_dashboard_msgs/srv/detail/load__type_support.cpp.o[0m
+[24.372s] [ 67%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ur_dashboard_msgs/srv/detail/is_program_running__type_support_c.cpp.o[0m
+[24.545s] [ 68%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ur_dashboard_msgs/srv/detail/dds_fastrtps/popup__type_support.cpp.o[0m
+[24.577s] [ 68%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ur_dashboard_msgs/srv/download_program__type_support.cpp.o[0m
+[24.615s] [ 68%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ur_dashboard_msgs/srv/detail/popup__type_support.cpp.o[0m
+[24.664s] [ 69%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ur_dashboard_msgs/srv/get_loaded_program__type_support.cpp.o[0m
+[24.879s] [ 69%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ur_dashboard_msgs/srv/detail/dds_fastrtps/raw_request__type_support.cpp.o[0m
+[24.947s] [ 69%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ur_dashboard_msgs/srv/detail/is_program_saved__type_support_c.cpp.o[0m
+[25.109s] [ 69%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ur_dashboard_msgs/srv/get_programs__type_support.cpp.o[0m
+[25.198s] [ 69%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ur_dashboard_msgs/srv/get_program_state__type_support.cpp.o[0m
+[25.198s] [ 70%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ur_dashboard_msgs/srv/detail/raw_request__type_support.cpp.o[0m
+[25.325s] [ 70%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ur_dashboard_msgs/srv/detail/dds_fastrtps/is_in_remote_control__type_support.cpp.o[0m
+[25.556s] [ 70%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ur_dashboard_msgs/srv/detail/load__type_support_c.cpp.o[0m
+[25.634s] [ 71%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ur_dashboard_msgs/srv/detail/popup__type_support_c.cpp.o[0m
+[25.822s] [ 71%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ur_dashboard_msgs/srv/detail/dds_fastrtps/upload_program__type_support.cpp.o[0m
+[25.833s] [ 71%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ur_dashboard_msgs/srv/get_robot_mode__type_support.cpp.o[0m
+[25.876s] [ 71%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ur_dashboard_msgs/srv/detail/is_in_remote_control__type_support.cpp.o[0m
+[26.184s] [ 71%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ur_dashboard_msgs/srv/detail/raw_request__type_support_c.cpp.o[0m
+[26.193s] [ 71%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ur_dashboard_msgs/srv/detail/upload_program__type_support.cpp.o[0m
+[26.315s] [ 71%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ur_dashboard_msgs/srv/detail/is_in_remote_control__type_support_c.cpp.o[0m
+[26.329s] [ 71%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ur_dashboard_msgs/srv/detail/get_poly_scope_version__type_support.cpp.o[0m
+[26.383s] [ 72%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ur_dashboard_msgs/srv/get_safety_mode__type_support.cpp.o[0m
+[26.556s] [ 73%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ur_dashboard_msgs/srv/detail/dds_fastrtps/get_poly_scope_version__type_support.cpp.o[0m
+[26.704s] [ 73%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ur_dashboard_msgs/srv/detail/dds_fastrtps/get_serial_number__type_support.cpp.o[0m
+[26.792s] [ 74%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ur_dashboard_msgs/srv/detail/upload_program__type_support_c.cpp.o[0m
+[26.896s] [ 74%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ur_dashboard_msgs/srv/is_program_running__type_support.cpp.o[0m
+[27.069s] [ 74%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ur_dashboard_msgs/srv/detail/get_poly_scope_version__type_support_c.cpp.o[0m
+[27.072s] [ 75%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ur_dashboard_msgs/srv/detail/get_serial_number__type_support.cpp.o[0m
+[27.434s] [ 75%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ur_dashboard_msgs/srv/is_program_saved__type_support.cpp.o[0m
+[27.509s] [ 75%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ur_dashboard_msgs/srv/detail/get_serial_number__type_support_c.cpp.o[0m
+[27.588s] [ 75%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ur_dashboard_msgs/srv/detail/dds_fastrtps/get_user_role__type_support.cpp.o[0m
+[27.616s] [ 76%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ur_dashboard_msgs/srv/detail/dds_fastrtps/set_user_role__type_support.cpp.o[0m
+[27.859s] [ 76%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ur_dashboard_msgs/srv/detail/get_user_role__type_support.cpp.o[0m
+[28.071s] [ 76%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ur_dashboard_msgs/srv/detail/get_user_role__type_support_c.cpp.o[0m
+[28.326s] [ 77%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ur_dashboard_msgs/srv/detail/set_user_role__type_support_c.cpp.o[0m
+[28.341s] [ 78%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ur_dashboard_msgs/srv/load__type_support.cpp.o[0m
+[28.439s] [ 78%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ur_dashboard_msgs/srv/detail/set_user_role__type_support.cpp.o[0m
+[28.488s] [ 78%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ur_dashboard_msgs/srv/detail/dds_fastrtps/set_operational_mode__type_support.cpp.o[0m
+[28.528s] [ 78%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ur_dashboard_msgs/srv/detail/dds_fastrtps/get_operational_mode__type_support.cpp.o[0m
+[28.718s] [ 78%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ur_dashboard_msgs/srv/detail/set_operational_mode__type_support_c.cpp.o[0m
+[28.899s] [ 78%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ur_dashboard_msgs/srv/detail/get_operational_mode__type_support_c.cpp.o[0m
+[28.912s] [ 78%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ur_dashboard_msgs/srv/popup__type_support.cpp.o[0m
+[28.922s] [ 79%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ur_dashboard_msgs/srv/detail/set_operational_mode__type_support.cpp.o[0m
+[29.304s] [ 80%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ur_dashboard_msgs/srv/detail/get_robot_model__type_support_c.cpp.o[0m
+[29.322s] [ 80%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ur_dashboard_msgs/srv/detail/dds_fastrtps/get_robot_model__type_support.cpp.o[0m
+[29.368s] [ 80%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ur_dashboard_msgs/srv/detail/get_safety_status__type_support_c.cpp.o[0m
+[29.523s] [ 80%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ur_dashboard_msgs/srv/raw_request__type_support.cpp.o[0m
+[29.620s] [ 80%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ur_dashboard_msgs/srv/detail/generate_flight_report__type_support_c.cpp.o[0m
+[29.620s] [ 80%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ur_dashboard_msgs/srv/detail/get_operational_mode__type_support.cpp.o[0m
+[29.812s] [ 80%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ur_dashboard_msgs/srv/detail/generate_support_file__type_support_c.cpp.o[0m
+[30.077s] [ 81%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ur_dashboard_msgs/action/detail/set_mode__type_support_c.cpp.o[0m
+[30.173s] [ 82%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ur_dashboard_msgs/srv/detail/dds_fastrtps/get_safety_status__type_support.cpp.o[0m
+[30.187s] [ 82%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ur_dashboard_msgs/srv/is_in_remote_control__type_support.cpp.o[0m
+[30.416s] [ 82%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ur_dashboard_msgs/srv/detail/get_robot_model__type_support.cpp.o[0m
+[30.599s] [ 82%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ur_dashboard_msgs/srv/detail/dds_fastrtps/generate_flight_report__type_support.cpp.o[0m
+[30.959s] [ 82%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ur_dashboard_msgs/srv/detail/get_safety_status__type_support.cpp.o[0m
+[30.961s] [ 83%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ur_dashboard_msgs/srv/upload_program__type_support.cpp.o[0m
+[30.998s] [ 83%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ur_dashboard_msgs/srv/get_poly_scope_version__type_support.cpp.o[0m
+[31.167s] [ 83%] [32m[1mLinking CXX shared library libur_dashboard_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[31.403s] [ 83%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ur_dashboard_msgs/srv/detail/dds_fastrtps/generate_support_file__type_support.cpp.o[0m
+[31.564s] [ 83%] Built target ur_dashboard_msgs__rosidl_typesupport_fastrtps_c
+[31.577s] [ 84%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ur_dashboard_msgs/srv/detail/generate_flight_report__type_support.cpp.o[0m
+[31.708s] [ 84%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ur_dashboard_msgs/srv/get_serial_number__type_support.cpp.o[0m
+[31.742s] [ 85%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ur_dashboard_msgs/action/detail/dds_fastrtps/set_mode__type_support.cpp.o[0m
+[31.937s] [ 85%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ur_dashboard_msgs/srv/detail/generate_support_file__type_support.cpp.o[0m
+[31.977s] [ 86%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ur_dashboard_msgs/srv/get_user_role__type_support.cpp.o[0m
+[32.174s] [ 86%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ur_dashboard_msgs/action/detail/set_mode__type_support.cpp.o[0m
+[32.291s] [ 86%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ur_dashboard_msgs/srv/set_user_role__type_support.cpp.o[0m
+[32.670s] [ 87%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ur_dashboard_msgs/srv/get_robot_model__type_support.cpp.o[0m
+[33.044s] [ 88%] [32m[1mLinking CXX shared library libur_dashboard_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[33.129s] [ 88%] [32m[1mLinking CXX shared library libur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[33.130s] [ 88%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ur_dashboard_msgs/srv/get_safety_status__type_support.cpp.o[0m
+[33.246s] [ 88%] Built target ur_dashboard_msgs__rosidl_typesupport_introspection_cpp
+[33.321s] [ 88%] Built target ur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp
+[33.538s] [ 88%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ur_dashboard_msgs/action/set_mode__type_support.cpp.o[0m
+[34.151s] [ 89%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ur_dashboard_msgs/srv/generate_support_file__type_support.cpp.o[0m
+[34.599s] [ 89%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ur_dashboard_msgs/srv/generate_flight_report__type_support.cpp.o[0m
+[35.176s] [ 89%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ur_dashboard_msgs/srv/get_operational_mode__type_support.cpp.o[0m
+[35.762s] [ 89%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ur_dashboard_msgs/srv/set_operational_mode__type_support.cpp.o[0m
+[36.274s] [ 89%] [32m[1mLinking CXX shared library libur_dashboard_msgs__rosidl_typesupport_cpp.so[0m
+[36.463s] [ 89%] Built target ur_dashboard_msgs__rosidl_typesupport_cpp
+[36.507s] [ 89%] Built target ur_dashboard_msgs
+[36.559s] [ 89%] [34m[1mGenerating Python code for ROS interfaces[0m
+[42.061s] [ 89%] Built target ur_dashboard_msgs__py
+[42.107s] [ 89%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_py.dir/rosidl_generator_py/ur_dashboard_msgs/msg/_program_information_s.c.o[0m
+[42.391s] [ 89%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_py.dir/rosidl_generator_py/ur_dashboard_msgs/msg/_user_role_s.c.o[0m
+[42.538s] [ 89%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_py.dir/rosidl_generator_py/ur_dashboard_msgs/msg/_version_information_s.c.o[0m
+[42.668s] [ 90%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_py.dir/rosidl_generator_py/ur_dashboard_msgs/msg/_safety_status_s.c.o[0m
+[42.777s] [ 90%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_py.dir/rosidl_generator_py/ur_dashboard_msgs/srv/_add_to_log_s.c.o[0m
+[42.912s] [ 90%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_py.dir/rosidl_generator_py/ur_dashboard_msgs/srv/_download_program_s.c.o[0m
+[43.050s] [ 91%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_py.dir/rosidl_generator_py/ur_dashboard_msgs/srv/_get_loaded_program_s.c.o[0m
+[43.208s] [ 91%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_py.dir/rosidl_generator_py/ur_dashboard_msgs/srv/_get_programs_s.c.o[0m
+[43.380s] [ 91%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_py.dir/rosidl_generator_py/ur_dashboard_msgs/srv/_get_program_state_s.c.o[0m
+[43.536s] [ 91%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_py.dir/rosidl_generator_py/ur_dashboard_msgs/srv/_get_robot_mode_s.c.o[0m
+[43.684s] [ 92%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_py.dir/rosidl_generator_py/ur_dashboard_msgs/srv/_get_safety_mode_s.c.o[0m
+[43.852s] [ 92%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_py.dir/rosidl_generator_py/ur_dashboard_msgs/srv/_is_program_running_s.c.o[0m
+[44.016s] [ 92%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_py.dir/rosidl_generator_py/ur_dashboard_msgs/srv/_is_program_saved_s.c.o[0m
+[44.154s] [ 93%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_py.dir/rosidl_generator_py/ur_dashboard_msgs/srv/_load_s.c.o[0m
+[44.309s] [ 93%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_py.dir/rosidl_generator_py/ur_dashboard_msgs/srv/_popup_s.c.o[0m
+[44.478s] [ 93%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_py.dir/rosidl_generator_py/ur_dashboard_msgs/srv/_raw_request_s.c.o[0m
+[44.633s] [ 93%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_py.dir/rosidl_generator_py/ur_dashboard_msgs/srv/_is_in_remote_control_s.c.o[0m
+[44.774s] [ 94%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_py.dir/rosidl_generator_py/ur_dashboard_msgs/srv/_upload_program_s.c.o[0m
+[44.915s] [ 94%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_py.dir/rosidl_generator_py/ur_dashboard_msgs/srv/_get_poly_scope_version_s.c.o[0m
+[45.047s] [ 94%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_py.dir/rosidl_generator_py/ur_dashboard_msgs/srv/_get_serial_number_s.c.o[0m
+[45.162s] [ 95%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_py.dir/rosidl_generator_py/ur_dashboard_msgs/srv/_get_user_role_s.c.o[0m
+[45.359s] [ 95%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_py.dir/rosidl_generator_py/ur_dashboard_msgs/srv/_set_user_role_s.c.o[0m
+[45.532s] [ 95%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_py.dir/rosidl_generator_py/ur_dashboard_msgs/srv/_set_operational_mode_s.c.o[0m
+[45.684s] [ 95%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_py.dir/rosidl_generator_py/ur_dashboard_msgs/srv/_get_operational_mode_s.c.o[0m
+[45.871s] [ 96%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_py.dir/rosidl_generator_py/ur_dashboard_msgs/srv/_get_robot_model_s.c.o[0m
+[46.031s] [ 96%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_py.dir/rosidl_generator_py/ur_dashboard_msgs/srv/_get_safety_status_s.c.o[0m
+[46.186s] [ 96%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_py.dir/rosidl_generator_py/ur_dashboard_msgs/srv/_generate_flight_report_s.c.o[0m
+[46.352s] [ 97%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_py.dir/rosidl_generator_py/ur_dashboard_msgs/srv/_generate_support_file_s.c.o[0m
+[46.510s] [ 97%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_py.dir/rosidl_generator_py/ur_dashboard_msgs/action/_set_mode_s.c.o[0m
+[46.721s] [ 97%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_py.dir/rosidl_generator_py/ur_dashboard_msgs/msg/_operational_mode_s.c.o[0m
+[46.855s] [ 98%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_py.dir/rosidl_generator_py/ur_dashboard_msgs/msg/_safety_mode_s.c.o[0m
+[46.982s] [ 98%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_py.dir/rosidl_generator_py/ur_dashboard_msgs/msg/_robot_mode_s.c.o[0m
+[47.104s] [ 98%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_py.dir/rosidl_generator_py/ur_dashboard_msgs/msg/_program_state_s.c.o[0m
+[47.228s] [ 98%] [32m[1mLinking C shared library libur_dashboard_msgs__rosidl_generator_py.so[0m
+[47.326s] [ 98%] Built target ur_dashboard_msgs__rosidl_generator_py
+[47.361s] [ 99%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/ur_dashboard_msgs/_ur_dashboard_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[47.745s] [ 99%] [32m[1mLinking C shared module rosidl_generator_py/ur_dashboard_msgs/ur_dashboard_msgs_s__rosidl_typesupport_fastrtps_c.so[0m
+[47.804s] [ 99%] Built target ur_dashboard_msgs_s__rosidl_typesupport_fastrtps_c
+[47.846s] [ 99%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs_s__rosidl_typesupport_c.dir/rosidl_generator_py/ur_dashboard_msgs/_ur_dashboard_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[48.222s] [ 99%] [32m[1mLinking C shared module rosidl_generator_py/ur_dashboard_msgs/ur_dashboard_msgs_s__rosidl_typesupport_c.so[0m
+[48.284s] [ 99%] Built target ur_dashboard_msgs_s__rosidl_typesupport_c
+[48.318s] [ 99%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/ur_dashboard_msgs/_ur_dashboard_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[48.697s] [100%] [32m[1mLinking C shared module rosidl_generator_py/ur_dashboard_msgs/ur_dashboard_msgs_s__rosidl_typesupport_introspection_c.so[0m
+[48.765s] [100%] Built target ur_dashboard_msgs_s__rosidl_typesupport_introspection_c
+[48.790s] Invoked command in '/home/mehul-rathore/ros2_ws/build/ur_dashboard_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/mehul-rathore/ros2_ws/build/ur_dashboard_msgs -- -j6 -l6
+[48.790s] Invoking command in '/home/mehul-rathore/ros2_ws/build/ur_dashboard_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/mehul-rathore/ros2_ws/build/ur_dashboard_msgs
+[48.800s] -- Install configuration: ""
+[48.811s] -- Execute custom install script
+[48.811s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/share/ament_index/resource_index/rosidl_interfaces/ur_dashboard_msgs
+[48.811s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/msg/ProgramInformation.json
+[48.823s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/msg/ProgramState.json
+[48.841s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/msg/RobotMode.json
+[48.855s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/msg/SafetyMode.json
+[48.866s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/msg/OperationalMode.json
+[48.889s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/msg/UserRole.json
+[48.898s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/msg/VersionInformation.json
+[48.910s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/msg/SafetyStatus.json
+[48.920s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/AddToLog.json
+[48.939s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/DownloadProgram.json
+[48.956s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/GetLoadedProgram.json
+[48.973s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/GetPrograms.json
+[48.987s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/GetProgramState.json
+[49.002s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/GetRobotMode.json
+[49.017s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/GetSafetyMode.json
+[49.033s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/IsProgramRunning.json
+[49.046s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/IsProgramSaved.json
+[49.070s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/Load.json
+[49.082s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/Popup.json
+[49.099s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/RawRequest.json
+[49.112s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/IsInRemoteControl.json
+[49.129s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/UploadProgram.json
+[49.135s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/GetPolyScopeVersion.json
+[49.148s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/GetSerialNumber.json
+[49.163s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/GetUserRole.json
+[49.177s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/SetUserRole.json
+[49.195s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/SetOperationalMode.json
+[49.210s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/GetOperationalMode.json
+[49.225s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/GetRobotModel.json
+[49.237s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/GetSafetyStatus.json
+[49.258s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/GenerateFlightReport.json
+[49.272s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/GenerateSupportFile.json
+[49.292s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/action/SetMode.json
+[49.301s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action/detail/set_mode__functions.h
+[49.312s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action/detail/set_mode__struct.h
+[49.322s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action/detail/set_mode__type_support.h
+[49.337s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action/set_mode.h
+[49.356s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/operational_mode__functions.h
+[49.370s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/operational_mode__struct.h
+[49.386s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/operational_mode__type_support.h
+[49.399s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/program_information__functions.h
+[49.416s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/program_information__struct.h
+[49.425s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/program_information__type_support.h
+[49.434s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/program_state__functions.h
+[49.455s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/program_state__struct.h
+[49.474s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/program_state__type_support.h
+[49.493s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/robot_mode__functions.h
+[49.500s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/robot_mode__struct.h
+[49.514s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/robot_mode__type_support.h
+[49.526s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/safety_mode__functions.h
+[49.540s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/safety_mode__struct.h
+[49.553s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/safety_mode__type_support.h
+[49.566s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/safety_status__functions.h
+[49.582s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/safety_status__struct.h
+[49.594s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/safety_status__type_support.h
+[49.611s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/user_role__functions.h
+[49.626s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/user_role__struct.h
+[49.645s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/user_role__type_support.h
+[49.656s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/version_information__functions.h
+[49.678s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/version_information__struct.h
+[49.691s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/version_information__type_support.h
+[49.703s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/operational_mode.h
+[49.719s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/program_information.h
+[49.736s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/program_state.h
+[49.750s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/robot_mode.h
+[49.759s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/rosidl_generator_c__visibility_control.h
+[49.779s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/safety_mode.h
+[49.788s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/safety_status.h
+[49.807s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/user_role.h
+[49.819s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/version_information.h
+[49.832s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/add_to_log.h
+[49.844s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/add_to_log__functions.h
+[49.854s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/add_to_log__struct.h
+[49.865s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/add_to_log__type_support.h
+[49.887s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/download_program__functions.h
+[49.905s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/download_program__struct.h
+[49.915s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/download_program__type_support.h
+[49.923s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/generate_flight_report__functions.h
+[49.937s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/generate_flight_report__struct.h
+[49.953s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/generate_flight_report__type_support.h
+[49.973s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/generate_support_file__functions.h
+[49.986s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/generate_support_file__struct.h
+[50.003s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/generate_support_file__type_support.h
+[50.016s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_loaded_program__functions.h
+[50.036s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_loaded_program__struct.h
+[50.048s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_loaded_program__type_support.h
+[50.061s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_operational_mode__functions.h
+[50.074s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_operational_mode__struct.h
+[50.093s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_operational_mode__type_support.h
+[50.097s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_poly_scope_version__functions.h
+[50.109s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_poly_scope_version__struct.h
+[50.124s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_poly_scope_version__type_support.h
+[50.135s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_program_state__functions.h
+[50.157s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_program_state__struct.h
+[50.174s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_program_state__type_support.h
+[50.194s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_programs__functions.h
+[50.206s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_programs__struct.h
+[50.222s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_programs__type_support.h
+[50.235s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_robot_mode__functions.h
+[50.251s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_robot_mode__struct.h
+[50.260s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_robot_mode__type_support.h
+[50.269s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_robot_model__functions.h
+[50.283s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_robot_model__struct.h
+[50.297s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_robot_model__type_support.h
+[50.309s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_safety_mode__functions.h
+[50.326s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_safety_mode__struct.h
+[50.345s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_safety_mode__type_support.h
+[50.356s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_safety_status__functions.h
+[50.366s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_safety_status__struct.h
+[50.380s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_safety_status__type_support.h
+[50.389s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_serial_number__functions.h
+[50.401s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_serial_number__struct.h
+[50.413s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_serial_number__type_support.h
+[50.438s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_user_role__functions.h
+[50.449s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_user_role__struct.h
+[50.470s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_user_role__type_support.h
+[50.490s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_in_remote_control__functions.h
+[50.502s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_in_remote_control__struct.h
+[50.521s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_in_remote_control__type_support.h
+[50.532s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_running__functions.h
+[50.546s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_running__struct.h
+[50.568s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_running__type_support.h
+[50.581s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_saved__functions.h
+[50.596s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_saved__struct.h
+[50.610s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_saved__type_support.h
+[50.629s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/load__functions.h
+[50.641s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/load__struct.h
+[50.664s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/load__type_support.h
+[50.672s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/popup__functions.h
+[50.688s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/popup__struct.h
+[50.701s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/popup__type_support.h
+[50.718s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/raw_request__functions.h
+[50.730s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/raw_request__struct.h
+[50.745s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/raw_request__type_support.h
+[50.767s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/set_operational_mode__functions.h
+[50.786s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/set_operational_mode__struct.h
+[50.797s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/set_operational_mode__type_support.h
+[50.815s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/set_user_role__functions.h
+[50.836s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/set_user_role__struct.h
+[50.847s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/set_user_role__type_support.h
+[50.858s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/upload_program__functions.h
+[50.871s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/upload_program__struct.h
+[50.880s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/upload_program__type_support.h
+[50.896s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/download_program.h
+[50.922s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/generate_flight_report.h
+[50.930s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/generate_support_file.h
+[50.944s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/get_loaded_program.h
+[50.956s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/get_operational_mode.h
+[50.966s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/get_poly_scope_version.h
+[50.985s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/get_program_state.h
+[50.996s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/get_programs.h
+[51.007s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/get_robot_mode.h
+[51.029s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/get_robot_model.h
+[51.047s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/get_safety_mode.h
+[51.056s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/get_safety_status.h
+[51.068s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/get_serial_number.h
+[51.079s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/get_user_role.h
+[51.095s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/is_in_remote_control.h
+[51.107s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/is_program_running.h
+[51.120s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/is_program_saved.h
+[51.135s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/load.h
+[51.146s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/popup.h
+[51.159s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/raw_request.h
+[51.170s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/set_operational_mode.h
+[51.187s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/set_user_role.h
+[51.197s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/upload_program.h
+[51.217s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/environment/library_path.sh
+[51.231s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/environment/library_path.dsv
+[51.242s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action/detail/set_mode__rosidl_typesupport_fastrtps_c.h
+[51.254s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/operational_mode__rosidl_typesupport_fastrtps_c.h
+[51.276s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/program_information__rosidl_typesupport_fastrtps_c.h
+[51.286s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/program_state__rosidl_typesupport_fastrtps_c.h
+[51.304s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/robot_mode__rosidl_typesupport_fastrtps_c.h
+[51.322s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/safety_mode__rosidl_typesupport_fastrtps_c.h
+[51.342s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/safety_status__rosidl_typesupport_fastrtps_c.h
+[51.353s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/user_role__rosidl_typesupport_fastrtps_c.h
+[51.370s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/version_information__rosidl_typesupport_fastrtps_c.h
+[51.377s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[51.389s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/add_to_log__rosidl_typesupport_fastrtps_c.h
+[51.409s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/download_program__rosidl_typesupport_fastrtps_c.h
+[51.421s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/generate_flight_report__rosidl_typesupport_fastrtps_c.h
+[51.435s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/generate_support_file__rosidl_typesupport_fastrtps_c.h
+[51.449s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_loaded_program__rosidl_typesupport_fastrtps_c.h
+[51.467s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_operational_mode__rosidl_typesupport_fastrtps_c.h
+[51.477s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_poly_scope_version__rosidl_typesupport_fastrtps_c.h
+[51.489s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_program_state__rosidl_typesupport_fastrtps_c.h
+[51.503s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_programs__rosidl_typesupport_fastrtps_c.h
+[51.519s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_robot_mode__rosidl_typesupport_fastrtps_c.h
+[51.535s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_robot_model__rosidl_typesupport_fastrtps_c.h
+[51.547s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_safety_mode__rosidl_typesupport_fastrtps_c.h
+[51.566s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_safety_status__rosidl_typesupport_fastrtps_c.h
+[51.583s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_serial_number__rosidl_typesupport_fastrtps_c.h
+[51.603s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_user_role__rosidl_typesupport_fastrtps_c.h
+[51.613s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_in_remote_control__rosidl_typesupport_fastrtps_c.h
+[51.625s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_running__rosidl_typesupport_fastrtps_c.h
+[51.640s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_saved__rosidl_typesupport_fastrtps_c.h
+[51.653s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/load__rosidl_typesupport_fastrtps_c.h
+[51.668s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/popup__rosidl_typesupport_fastrtps_c.h
+[51.680s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/raw_request__rosidl_typesupport_fastrtps_c.h
+[51.697s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/set_operational_mode__rosidl_typesupport_fastrtps_c.h
+[51.711s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/set_user_role__rosidl_typesupport_fastrtps_c.h
+[51.730s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/upload_program__rosidl_typesupport_fastrtps_c.h
+[51.743s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action/detail/set_mode__rosidl_typesupport_introspection_c.h
+[51.760s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/operational_mode__rosidl_typesupport_introspection_c.h
+[51.770s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/program_information__rosidl_typesupport_introspection_c.h
+[51.781s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/program_state__rosidl_typesupport_introspection_c.h
+[51.802s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/robot_mode__rosidl_typesupport_introspection_c.h
+[51.819s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/safety_mode__rosidl_typesupport_introspection_c.h
+[51.825s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/safety_status__rosidl_typesupport_introspection_c.h
+[51.847s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/user_role__rosidl_typesupport_introspection_c.h
+[51.861s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/version_information__rosidl_typesupport_introspection_c.h
+[51.872s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[51.890s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/add_to_log__rosidl_typesupport_introspection_c.h
+[51.901s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/download_program__rosidl_typesupport_introspection_c.h
+[51.912s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/generate_flight_report__rosidl_typesupport_introspection_c.h
+[51.933s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/generate_support_file__rosidl_typesupport_introspection_c.h
+[51.949s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_loaded_program__rosidl_typesupport_introspection_c.h
+[51.961s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_operational_mode__rosidl_typesupport_introspection_c.h
+[51.976s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_poly_scope_version__rosidl_typesupport_introspection_c.h
+[51.988s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_program_state__rosidl_typesupport_introspection_c.h
+[51.998s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_programs__rosidl_typesupport_introspection_c.h
+[52.012s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_robot_mode__rosidl_typesupport_introspection_c.h
+[52.022s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_robot_model__rosidl_typesupport_introspection_c.h
+[52.032s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_safety_mode__rosidl_typesupport_introspection_c.h
+[52.048s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_safety_status__rosidl_typesupport_introspection_c.h
+[52.059s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_serial_number__rosidl_typesupport_introspection_c.h
+[52.075s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_user_role__rosidl_typesupport_introspection_c.h
+[52.085s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_in_remote_control__rosidl_typesupport_introspection_c.h
+[52.094s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_running__rosidl_typesupport_introspection_c.h
+[52.107s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_saved__rosidl_typesupport_introspection_c.h
+[52.119s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/load__rosidl_typesupport_introspection_c.h
+[52.138s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/popup__rosidl_typesupport_introspection_c.h
+[52.141s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/raw_request__rosidl_typesupport_introspection_c.h
+[52.154s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/set_operational_mode__rosidl_typesupport_introspection_c.h
+[52.169s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/set_user_role__rosidl_typesupport_introspection_c.h
+[52.182s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/upload_program__rosidl_typesupport_introspection_c.h
+[52.207s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action/detail/set_mode__builder.hpp
+[52.207s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action/detail/set_mode__struct.hpp
+[52.218s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action/detail/set_mode__traits.hpp
+[52.236s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action/detail/set_mode__type_support.hpp
+[52.251s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action/set_mode.hpp
+[52.263s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/operational_mode__builder.hpp
+[52.273s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/operational_mode__struct.hpp
+[52.283s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/operational_mode__traits.hpp
+[52.297s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/operational_mode__type_support.hpp
+[52.308s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/program_information__builder.hpp
+[52.318s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/program_information__struct.hpp
+[52.334s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/program_information__traits.hpp
+[52.348s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/program_information__type_support.hpp
+[52.359s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/program_state__builder.hpp
+[52.371s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/program_state__struct.hpp
+[52.383s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/program_state__traits.hpp
+[52.398s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/program_state__type_support.hpp
+[52.410s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/robot_mode__builder.hpp
+[52.428s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/robot_mode__struct.hpp
+[52.445s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/robot_mode__traits.hpp
+[52.457s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/robot_mode__type_support.hpp
+[52.473s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/safety_mode__builder.hpp
+[52.485s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/safety_mode__struct.hpp
+[52.498s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/safety_mode__traits.hpp
+[52.510s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/safety_mode__type_support.hpp
+[52.523s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/safety_status__builder.hpp
+[52.541s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/safety_status__struct.hpp
+[52.558s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/safety_status__traits.hpp
+[52.573s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/safety_status__type_support.hpp
+[52.588s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/user_role__builder.hpp
+[52.608s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/user_role__struct.hpp
+[52.620s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/user_role__traits.hpp
+[52.632s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/user_role__type_support.hpp
+[52.643s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/version_information__builder.hpp
+[52.656s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/version_information__struct.hpp
+[52.667s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/version_information__traits.hpp
+[52.679s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/version_information__type_support.hpp
+[52.693s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/operational_mode.hpp
+[52.706s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/program_information.hpp
+[52.723s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/program_state.hpp
+[52.733s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/robot_mode.hpp
+[52.752s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[52.763s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/safety_mode.hpp
+[52.782s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/safety_status.hpp
+[52.793s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/user_role.hpp
+[52.804s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/version_information.hpp
+[52.813s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/add_to_log.hpp
+[52.825s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/add_to_log__builder.hpp
+[52.840s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/add_to_log__struct.hpp
+[52.855s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/add_to_log__traits.hpp
+[52.875s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/add_to_log__type_support.hpp
+[52.886s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/download_program__builder.hpp
+[52.905s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/download_program__struct.hpp
+[52.906s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/download_program__traits.hpp
+[52.919s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/download_program__type_support.hpp
+[52.932s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/generate_flight_report__builder.hpp
+[52.955s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/generate_flight_report__struct.hpp
+[52.967s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/generate_flight_report__traits.hpp
+[52.985s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/generate_flight_report__type_support.hpp
+[52.991s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/generate_support_file__builder.hpp
+[53.001s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/generate_support_file__struct.hpp
+[53.011s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/generate_support_file__traits.hpp
+[53.024s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/generate_support_file__type_support.hpp
+[53.041s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_loaded_program__builder.hpp
+[53.058s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_loaded_program__struct.hpp
+[53.080s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_loaded_program__traits.hpp
+[53.095s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_loaded_program__type_support.hpp
+[53.107s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_operational_mode__builder.hpp
+[53.119s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_operational_mode__struct.hpp
+[53.136s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_operational_mode__traits.hpp
+[53.154s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_operational_mode__type_support.hpp
+[53.167s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_poly_scope_version__builder.hpp
+[53.181s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_poly_scope_version__struct.hpp
+[53.193s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_poly_scope_version__traits.hpp
+[53.206s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_poly_scope_version__type_support.hpp
+[53.231s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_program_state__builder.hpp
+[53.246s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_program_state__struct.hpp
+[53.262s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_program_state__traits.hpp
+[53.275s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_program_state__type_support.hpp
+[53.293s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_programs__builder.hpp
+[53.306s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_programs__struct.hpp
+[53.317s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_programs__traits.hpp
+[53.328s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_programs__type_support.hpp
+[53.340s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_robot_mode__builder.hpp
+[53.361s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_robot_mode__struct.hpp
+[53.373s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_robot_mode__traits.hpp
+[53.388s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_robot_mode__type_support.hpp
+[53.397s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_robot_model__builder.hpp
+[53.406s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_robot_model__struct.hpp
+[53.418s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_robot_model__traits.hpp
+[53.431s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_robot_model__type_support.hpp
+[53.442s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_safety_mode__builder.hpp
+[53.462s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_safety_mode__struct.hpp
+[53.475s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_safety_mode__traits.hpp
+[53.486s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_safety_mode__type_support.hpp
+[53.500s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_safety_status__builder.hpp
+[53.514s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_safety_status__struct.hpp
+[53.527s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_safety_status__traits.hpp
+[53.546s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_safety_status__type_support.hpp
+[53.561s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_serial_number__builder.hpp
+[53.576s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_serial_number__struct.hpp
+[53.593s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_serial_number__traits.hpp
+[53.610s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_serial_number__type_support.hpp
+[53.622s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_user_role__builder.hpp
+[53.636s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_user_role__struct.hpp
+[53.651s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_user_role__traits.hpp
+[53.660s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_user_role__type_support.hpp
+[53.677s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_in_remote_control__builder.hpp
+[53.688s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_in_remote_control__struct.hpp
+[53.705s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_in_remote_control__traits.hpp
+[53.716s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_in_remote_control__type_support.hpp
+[53.726s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_running__builder.hpp
+[53.739s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_running__struct.hpp
+[53.757s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_running__traits.hpp
+[53.766s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_running__type_support.hpp
+[53.784s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_saved__builder.hpp
+[53.802s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_saved__struct.hpp
+[53.816s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_saved__traits.hpp
+[53.833s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_saved__type_support.hpp
+[53.847s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/load__builder.hpp
+[53.855s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/load__struct.hpp
+[53.872s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/load__traits.hpp
+[53.887s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/load__type_support.hpp
+[53.897s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/popup__builder.hpp
+[53.922s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/popup__struct.hpp
+[53.938s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/popup__traits.hpp
+[53.951s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/popup__type_support.hpp
+[53.970s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/raw_request__builder.hpp
+[53.983s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/raw_request__struct.hpp
+[54.002s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/raw_request__traits.hpp
+[54.018s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/raw_request__type_support.hpp
+[54.030s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/set_operational_mode__builder.hpp
+[54.053s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/set_operational_mode__struct.hpp
+[54.056s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/set_operational_mode__traits.hpp
+[54.066s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/set_operational_mode__type_support.hpp
+[54.079s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/set_user_role__builder.hpp
+[54.097s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/set_user_role__struct.hpp
+[54.108s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/set_user_role__traits.hpp
+[54.121s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/set_user_role__type_support.hpp
+[54.133s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/upload_program__builder.hpp
+[54.144s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/upload_program__struct.hpp
+[54.161s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/upload_program__traits.hpp
+[54.174s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/upload_program__type_support.hpp
+[54.192s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/download_program.hpp
+[54.207s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/generate_flight_report.hpp
+[54.223s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/generate_support_file.hpp
+[54.235s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/get_loaded_program.hpp
+[54.250s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/get_operational_mode.hpp
+[54.261s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/get_poly_scope_version.hpp
+[54.273s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/get_program_state.hpp
+[54.287s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/get_programs.hpp
+[54.306s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/get_robot_mode.hpp
+[54.329s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/get_robot_model.hpp
+[54.351s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/get_safety_mode.hpp
+[54.361s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/get_safety_status.hpp
+[54.380s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/get_serial_number.hpp
+[54.394s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/get_user_role.hpp
+[54.411s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/is_in_remote_control.hpp
+[54.422s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/is_program_running.hpp
+[54.431s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/is_program_saved.hpp
+[54.445s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/load.hpp
+[54.459s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/popup.hpp
+[54.479s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/raw_request.hpp
+[54.492s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/set_operational_mode.hpp
+[54.512s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/set_user_role.hpp
+[54.540s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/upload_program.hpp
+[54.541s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action/detail/set_mode__rosidl_typesupport_fastrtps_cpp.hpp
+[54.552s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/operational_mode__rosidl_typesupport_fastrtps_cpp.hpp
+[54.574s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/program_information__rosidl_typesupport_fastrtps_cpp.hpp
+[54.593s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/program_state__rosidl_typesupport_fastrtps_cpp.hpp
+[54.609s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/robot_mode__rosidl_typesupport_fastrtps_cpp.hpp
+[54.617s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/safety_mode__rosidl_typesupport_fastrtps_cpp.hpp
+[54.635s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/safety_status__rosidl_typesupport_fastrtps_cpp.hpp
+[54.643s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/user_role__rosidl_typesupport_fastrtps_cpp.hpp
+[54.656s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/version_information__rosidl_typesupport_fastrtps_cpp.hpp
+[54.670s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[54.686s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/add_to_log__rosidl_typesupport_fastrtps_cpp.hpp
+[54.698s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/download_program__rosidl_typesupport_fastrtps_cpp.hpp
+[54.709s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/generate_flight_report__rosidl_typesupport_fastrtps_cpp.hpp
+[54.720s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/generate_support_file__rosidl_typesupport_fastrtps_cpp.hpp
+[54.734s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_loaded_program__rosidl_typesupport_fastrtps_cpp.hpp
+[54.747s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_operational_mode__rosidl_typesupport_fastrtps_cpp.hpp
+[54.762s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_poly_scope_version__rosidl_typesupport_fastrtps_cpp.hpp
+[54.774s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_program_state__rosidl_typesupport_fastrtps_cpp.hpp
+[54.787s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_programs__rosidl_typesupport_fastrtps_cpp.hpp
+[54.799s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_robot_mode__rosidl_typesupport_fastrtps_cpp.hpp
+[54.812s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_robot_model__rosidl_typesupport_fastrtps_cpp.hpp
+[54.826s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_safety_mode__rosidl_typesupport_fastrtps_cpp.hpp
+[54.842s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_safety_status__rosidl_typesupport_fastrtps_cpp.hpp
+[54.856s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_serial_number__rosidl_typesupport_fastrtps_cpp.hpp
+[54.870s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_user_role__rosidl_typesupport_fastrtps_cpp.hpp
+[54.891s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_in_remote_control__rosidl_typesupport_fastrtps_cpp.hpp
+[54.903s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_running__rosidl_typesupport_fastrtps_cpp.hpp
+[54.921s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_saved__rosidl_typesupport_fastrtps_cpp.hpp
+[54.928s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/load__rosidl_typesupport_fastrtps_cpp.hpp
+[54.940s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/popup__rosidl_typesupport_fastrtps_cpp.hpp
+[54.960s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/raw_request__rosidl_typesupport_fastrtps_cpp.hpp
+[54.972s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/set_operational_mode__rosidl_typesupport_fastrtps_cpp.hpp
+[54.991s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/set_user_role__rosidl_typesupport_fastrtps_cpp.hpp
+[55.007s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/upload_program__rosidl_typesupport_fastrtps_cpp.hpp
+[55.020s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action/detail/set_mode__rosidl_typesupport_introspection_cpp.hpp
+[55.035s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/operational_mode__rosidl_typesupport_introspection_cpp.hpp
+[55.049s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/program_information__rosidl_typesupport_introspection_cpp.hpp
+[55.060s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/program_state__rosidl_typesupport_introspection_cpp.hpp
+[55.072s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/robot_mode__rosidl_typesupport_introspection_cpp.hpp
+[55.097s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/safety_mode__rosidl_typesupport_introspection_cpp.hpp
+[55.110s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/safety_status__rosidl_typesupport_introspection_cpp.hpp
+[55.140s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/user_role__rosidl_typesupport_introspection_cpp.hpp
+[55.158s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/version_information__rosidl_typesupport_introspection_cpp.hpp
+[55.171s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/add_to_log__rosidl_typesupport_introspection_cpp.hpp
+[55.185s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/download_program__rosidl_typesupport_introspection_cpp.hpp
+[55.197s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/generate_flight_report__rosidl_typesupport_introspection_cpp.hpp
+[55.214s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/generate_support_file__rosidl_typesupport_introspection_cpp.hpp
+[55.224s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_loaded_program__rosidl_typesupport_introspection_cpp.hpp
+[55.238s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_operational_mode__rosidl_typesupport_introspection_cpp.hpp
+[55.251s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_poly_scope_version__rosidl_typesupport_introspection_cpp.hpp
+[55.265s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_program_state__rosidl_typesupport_introspection_cpp.hpp
+[55.285s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_programs__rosidl_typesupport_introspection_cpp.hpp
+[55.304s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_robot_mode__rosidl_typesupport_introspection_cpp.hpp
+[55.307s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_robot_model__rosidl_typesupport_introspection_cpp.hpp
+[55.317s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_safety_mode__rosidl_typesupport_introspection_cpp.hpp
+[55.328s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_safety_status__rosidl_typesupport_introspection_cpp.hpp
+[55.340s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_serial_number__rosidl_typesupport_introspection_cpp.hpp
+[55.354s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_user_role__rosidl_typesupport_introspection_cpp.hpp
+[55.363s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_in_remote_control__rosidl_typesupport_introspection_cpp.hpp
+[55.376s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_running__rosidl_typesupport_introspection_cpp.hpp
+[55.389s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_saved__rosidl_typesupport_introspection_cpp.hpp
+[55.408s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/load__rosidl_typesupport_introspection_cpp.hpp
+[55.420s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/popup__rosidl_typesupport_introspection_cpp.hpp
+[55.436s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/raw_request__rosidl_typesupport_introspection_cpp.hpp
+[55.449s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/set_operational_mode__rosidl_typesupport_introspection_cpp.hpp
+[55.465s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/set_user_role__rosidl_typesupport_introspection_cpp.hpp
+[55.476s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/upload_program__rosidl_typesupport_introspection_cpp.hpp
+[55.496s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/environment/pythonpath.sh
+[55.508s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/environment/pythonpath.dsv
+[55.518s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs-3.8.0-py3.12.egg-info/PKG-INFO
+[55.533s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs-3.8.0-py3.12.egg-info/SOURCES.txt
+[55.561s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs-3.8.0-py3.12.egg-info/dependency_links.txt
+[55.578s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs-3.8.0-py3.12.egg-info/top_level.txt
+[55.585s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs/__init__.py
+[55.599s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs/_ur_dashboard_msgs_s.ep.rosidl_typesupport_c.c
+[55.623s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs/_ur_dashboard_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[55.633s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs/_ur_dashboard_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[55.649s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs/action/__init__.py
+[55.661s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs/action/_set_mode.py
+[55.673s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs/action/_set_mode_s.c
+[55.688s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs/msg/__init__.py
+[55.702s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs/msg/_operational_mode.py
+[55.712s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs/msg/_operational_mode_s.c
+[55.726s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs/msg/_program_information.py
+[55.735s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs/msg/_program_information_s.c
+[55.761s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs/msg/_program_state.py
+[55.767s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs/msg/_program_state_s.c
+[55.779s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs/msg/_robot_mode.py
+[55.798s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs/msg/_robot_mode_s.c
+[55.808s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs/msg/_safety_mode.py
+[55.827s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs/msg/_safety_mode_s.c
+[55.841s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs/msg/_safety_status.py
+[55.854s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs/msg/_safety_status_s.c
+[55.868s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs/msg/_user_role.py
+[55.878s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs/msg/_user_role_s.c
+[55.897s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs/msg/_version_information.py
+[55.907s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs/msg/_version_information_s.c
+[55.920s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs/srv/__init__.py
+[55.932s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs/srv/_add_to_log.py
+[55.949s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs/srv/_add_to_log_s.c
+[55.965s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs/srv/_download_program.py
+[55.983s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs/srv/_download_program_s.c
+[55.988s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs/srv/_generate_flight_report.py
+[56.000s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs/srv/_generate_flight_report_s.c
+[56.014s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs/srv/_generate_support_file.py
+[56.027s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs/srv/_generate_support_file_s.c
+[56.048s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs/srv/_get_loaded_program.py
+[56.057s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs/srv/_get_loaded_program_s.c
+[56.068s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs/srv/_get_operational_mode.py
+[56.087s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs/srv/_get_operational_mode_s.c
+[56.098s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs/srv/_get_poly_scope_version.py
+[56.111s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs/srv/_get_poly_scope_version_s.c
+[56.125s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs/srv/_get_program_state.py
+[56.143s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs/srv/_get_program_state_s.c
+[56.157s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs/srv/_get_programs.py
+[56.175s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs/srv/_get_programs_s.c
+[56.186s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs/srv/_get_robot_mode.py
+[56.198s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs/srv/_get_robot_mode_s.c
+[56.216s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs/srv/_get_robot_model.py
+[56.229s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs/srv/_get_robot_model_s.c
+[56.245s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs/srv/_get_safety_mode.py
+[56.263s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs/srv/_get_safety_mode_s.c
+[56.277s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs/srv/_get_safety_status.py
+[56.289s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs/srv/_get_safety_status_s.c
+[56.301s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs/srv/_get_serial_number.py
+[56.313s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs/srv/_get_serial_number_s.c
+[56.329s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs/srv/_get_user_role.py
+[56.346s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs/srv/_get_user_role_s.c
+[56.367s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs/srv/_is_in_remote_control.py
+[56.375s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs/srv/_is_in_remote_control_s.c
+[56.386s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs/srv/_is_program_running.py
+[56.403s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs/srv/_is_program_running_s.c
+[56.413s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs/srv/_is_program_saved.py
+[56.425s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs/srv/_is_program_saved_s.c
+[56.439s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs/srv/_load.py
+[56.449s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs/srv/_load_s.c
+[56.460s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs/srv/_popup.py
+[56.475s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs/srv/_popup_s.c
+[56.491s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs/srv/_raw_request.py
+[56.497s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs/srv/_raw_request_s.c
+[56.517s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs/srv/_set_operational_mode.py
+[56.526s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs/srv/_set_operational_mode_s.c
+[56.543s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs/srv/_set_user_role.py
+[56.559s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs/srv/_set_user_role_s.c
+[56.568s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs/srv/_upload_program.py
+[56.578s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs/srv/_upload_program_s.c
+[56.590s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs/ur_dashboard_msgs_s__rosidl_typesupport_c.so
+[56.602s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs/ur_dashboard_msgs_s__rosidl_typesupport_fastrtps_c.so
+[56.623s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs/ur_dashboard_msgs_s__rosidl_typesupport_introspection_c.so
+[56.625s] -- Up-to-date symlink: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs/ur_dashboard_msgs_s__rosidl_typesupport_fastrtps_c.so
+[56.626s] -- Up-to-date symlink: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs/ur_dashboard_msgs_s__rosidl_typesupport_introspection_c.so
+[56.626s] -- Up-to-date symlink: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs/ur_dashboard_msgs_s__rosidl_typesupport_c.so
+[56.626s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/share/ament_index/resource_index/rust_packages/ur_dashboard_msgs
+[56.640s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/rust/Cargo.toml
+[56.657s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/rust/build.rs
+[56.670s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/rust/src/action.rs
+[56.685s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/rust/src/action/rmw.rs
+[56.697s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/rust/src/lib.rs
+[56.710s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/rust/src/msg.rs
+[56.721s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/rust/src/msg/rmw.rs
+[56.734s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/rust/src/srv.rs
+[56.754s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/rust/src/srv/rmw.rs
+[56.765s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/msg/ProgramInformation.idl
+[56.781s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/msg/ProgramState.idl
+[56.793s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/msg/RobotMode.idl
+[56.817s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/msg/SafetyMode.idl
+[56.825s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/msg/OperationalMode.idl
+[56.837s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/msg/UserRole.idl
+[56.846s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/msg/VersionInformation.idl
+[56.859s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/msg/SafetyStatus.idl
+[56.869s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/AddToLog.idl
+[56.880s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/DownloadProgram.idl
+[56.891s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/GetLoadedProgram.idl
+[56.913s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/GetPrograms.idl
+[56.926s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/GetProgramState.idl
+[56.942s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/GetRobotMode.idl
+[56.955s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/GetSafetyMode.idl
+[56.973s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/IsProgramRunning.idl
+[56.985s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/IsProgramSaved.idl
+[56.995s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/Load.idl
+[57.014s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/Popup.idl
+[57.025s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/RawRequest.idl
+[57.039s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/IsInRemoteControl.idl
+[57.055s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/UploadProgram.idl
+[57.072s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/GetPolyScopeVersion.idl
+[57.084s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/GetSerialNumber.idl
+[57.100s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/GetUserRole.idl
+[57.116s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/SetUserRole.idl
+[57.128s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/SetOperationalMode.idl
+[57.146s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/GetOperationalMode.idl
+[57.156s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/GetRobotModel.idl
+[57.168s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/GetSafetyStatus.idl
+[57.179s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/GenerateFlightReport.idl
+[57.191s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/GenerateSupportFile.idl
+[57.202s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/action/SetMode.idl
+[57.212s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/msg/ProgramInformation.msg
+[57.224s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/msg/ProgramState.msg
+[57.234s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/msg/RobotMode.msg
+[57.250s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/msg/SafetyMode.msg
+[57.270s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/msg/OperationalMode.msg
+[57.282s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/msg/UserRole.msg
+[57.297s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/msg/VersionInformation.msg
+[57.310s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/msg/SafetyStatus.msg
+[57.323s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/AddToLog.srv
+[57.338s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/DownloadProgram.srv
+[57.347s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/GetLoadedProgram.srv
+[57.361s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/GetPrograms.srv
+[57.372s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/GetProgramState.srv
+[57.383s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/GetRobotMode.srv
+[57.396s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/GetSafetyMode.srv
+[57.408s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/IsProgramRunning.srv
+[57.422s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/IsProgramSaved.srv
+[57.436s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/Load.srv
+[57.456s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/Popup.srv
+[57.467s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/RawRequest.srv
+[57.486s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/IsInRemoteControl.srv
+[57.497s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/UploadProgram.srv
+[57.508s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/GetPolyScopeVersion.srv
+[57.523s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/GetSerialNumber.srv
+[57.539s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/GetUserRole.srv
+[57.556s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/SetUserRole.srv
+[57.568s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/SetOperationalMode.srv
+[57.584s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/GetOperationalMode.srv
+[57.595s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/GetRobotModel.srv
+[57.607s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/GetSafetyStatus.srv
+[57.621s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/GenerateFlightReport.srv
+[57.634s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/GenerateSupportFile.srv
+[57.650s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/action/SetMode.action
+[57.663s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/share/ament_index/resource_index/package_run_dependencies/ur_dashboard_msgs
+[57.682s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/share/ament_index/resource_index/parent_prefix_path/ur_dashboard_msgs
+[57.695s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/environment/ament_prefix_path.sh
+[57.713s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/environment/ament_prefix_path.dsv
+[57.727s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/environment/path.sh
+[57.742s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/environment/path.dsv
+[57.756s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/local_setup.bash
+[57.772s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/local_setup.sh
+[57.783s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/local_setup.zsh
+[57.796s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/local_setup.dsv
+[57.805s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/package.dsv
+[57.820s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/share/ament_index/resource_index/packages/ur_dashboard_msgs
+[57.834s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/rosidl_cmake-extras.cmake
+[57.852s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[57.865s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[57.881s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[57.892s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[57.903s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[57.918s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[57.941s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/ur_dashboard_msgsConfig.cmake
+[57.955s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/ur_dashboard_msgsConfig-version.cmake
+[57.975s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/package.xml
+[57.987s] -- Installing: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/lib/libur_dashboard_msgs__rosidl_generator_c.so
+[57.988s] -- Set non-toolchain portion of runtime path of "/home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/lib/libur_dashboard_msgs__rosidl_generator_c.so" to ""
+[57.988s] -- Installing: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/lib/libur_dashboard_msgs__rosidl_typesupport_fastrtps_c.so
+[57.988s] -- Set non-toolchain portion of runtime path of "/home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/lib/libur_dashboard_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[57.989s] -- Installing: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/lib/libur_dashboard_msgs__rosidl_typesupport_introspection_c.so
+[57.989s] -- Set non-toolchain portion of runtime path of "/home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/lib/libur_dashboard_msgs__rosidl_typesupport_introspection_c.so" to ""
+[57.989s] -- Installing: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/lib/libur_dashboard_msgs__rosidl_typesupport_c.so
+[57.990s] -- Set non-toolchain portion of runtime path of "/home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/lib/libur_dashboard_msgs__rosidl_typesupport_c.so" to ""
+[57.990s] -- Installing: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/lib/libur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp.so
+[57.993s] -- Set non-toolchain portion of runtime path of "/home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/lib/libur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[57.993s] -- Installing: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/lib/libur_dashboard_msgs__rosidl_typesupport_introspection_cpp.so
+[58.002s] -- Set non-toolchain portion of runtime path of "/home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/lib/libur_dashboard_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[58.002s] -- Installing: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/lib/libur_dashboard_msgs__rosidl_typesupport_cpp.so
+[58.002s] -- Set non-toolchain portion of runtime path of "/home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/lib/libur_dashboard_msgs__rosidl_typesupport_cpp.so" to ""
+[58.149s] Listing '/home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs'...
+[58.149s] Compiling '/home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs/__init__.py'...
+[58.149s] Listing '/home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs/action'...
+[58.149s] Compiling '/home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs/action/__init__.py'...
+[58.149s] Compiling '/home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs/action/_set_mode.py'...
+[58.149s] Listing '/home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs/msg'...
+[58.149s] Compiling '/home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs/msg/__init__.py'...
+[58.149s] Compiling '/home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs/msg/_operational_mode.py'...
+[58.149s] Compiling '/home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs/msg/_program_information.py'...
+[58.149s] Compiling '/home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs/msg/_program_state.py'...
+[58.149s] Compiling '/home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs/msg/_robot_mode.py'...
+[58.149s] Compiling '/home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs/msg/_safety_mode.py'...
+[58.149s] Compiling '/home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs/msg/_safety_status.py'...
+[58.150s] Compiling '/home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs/msg/_user_role.py'...
+[58.150s] Compiling '/home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs/msg/_version_information.py'...
+[58.150s] Listing '/home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs/srv'...
+[58.150s] Compiling '/home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs/srv/__init__.py'...
+[58.150s] Compiling '/home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs/srv/_add_to_log.py'...
+[58.150s] Compiling '/home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs/srv/_download_program.py'...
+[58.150s] Compiling '/home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs/srv/_generate_flight_report.py'...
+[58.150s] Compiling '/home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs/srv/_generate_support_file.py'...
+[58.150s] Compiling '/home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs/srv/_get_loaded_program.py'...
+[58.150s] Compiling '/home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs/srv/_get_operational_mode.py'...
+[58.150s] Compiling '/home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs/srv/_get_poly_scope_version.py'...
+[58.150s] Compiling '/home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs/srv/_get_program_state.py'...
+[58.150s] Compiling '/home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs/srv/_get_programs.py'...
+[58.150s] Compiling '/home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs/srv/_get_robot_mode.py'...
+[58.150s] Compiling '/home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs/srv/_get_robot_model.py'...
+[58.150s] Compiling '/home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs/srv/_get_safety_mode.py'...
+[58.150s] Compiling '/home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs/srv/_get_safety_status.py'...
+[58.150s] Compiling '/home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs/srv/_get_serial_number.py'...
+[58.150s] Compiling '/home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs/srv/_get_user_role.py'...
+[58.150s] Compiling '/home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs/srv/_is_in_remote_control.py'...
+[58.150s] Compiling '/home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs/srv/_is_program_running.py'...
+[58.150s] Compiling '/home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs/srv/_is_program_saved.py'...
+[58.150s] Compiling '/home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs/srv/_load.py'...
+[58.150s] Compiling '/home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs/srv/_popup.py'...
+[58.150s] Compiling '/home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs/srv/_raw_request.py'...
+[58.150s] Compiling '/home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs/srv/_set_operational_mode.py'...
+[58.150s] Compiling '/home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs/srv/_set_user_role.py'...
+[58.150s] Compiling '/home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/lib/python3.12/site-packages/ur_dashboard_msgs/srv/_upload_program.py'...
+[58.165s] -- Installing: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/lib/libur_dashboard_msgs__rosidl_generator_py.so
+[58.165s] -- Set non-toolchain portion of runtime path of "/home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/lib/libur_dashboard_msgs__rosidl_generator_py.so" to ""
+[58.165s] -- Installing: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/export_ur_dashboard_msgs__rosidl_generator_cExport.cmake
+[58.166s] -- Installing: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/export_ur_dashboard_msgs__rosidl_generator_cExport-noconfig.cmake
+[58.166s] -- Installing: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/export_ur_dashboard_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[58.166s] -- Installing: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/export_ur_dashboard_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[58.166s] -- Installing: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/ur_dashboard_msgs__rosidl_typesupport_introspection_cExport.cmake
+[58.166s] -- Installing: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/ur_dashboard_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[58.166s] -- Installing: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/ur_dashboard_msgs__rosidl_typesupport_cExport.cmake
+[58.166s] -- Installing: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/ur_dashboard_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[58.167s] -- Installing: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/export_ur_dashboard_msgs__rosidl_generator_cppExport.cmake
+[58.167s] -- Installing: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/export_ur_dashboard_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[58.167s] -- Installing: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/export_ur_dashboard_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[58.167s] -- Installing: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/ur_dashboard_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[58.167s] -- Installing: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/ur_dashboard_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[58.167s] -- Installing: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/ur_dashboard_msgs__rosidl_typesupport_cppExport.cmake
+[58.167s] -- Installing: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/ur_dashboard_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[58.167s] -- Installing: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/export_ur_dashboard_msgs__rosidl_generator_pyExport.cmake
+[58.170s] -- Installing: /home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/export_ur_dashboard_msgs__rosidl_generator_pyExport-noconfig.cmake
+[58.170s] Invoked command in '/home/mehul-rathore/ros2_ws/build/ur_dashboard_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/mehul-rathore/ros2_ws/build/ur_dashboard_msgs

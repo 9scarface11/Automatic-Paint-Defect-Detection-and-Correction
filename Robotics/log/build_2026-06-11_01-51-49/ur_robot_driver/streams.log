@@ -1,0 +1,186 @@
+[0.032s] Invoking command in '/home/mehul-rathore/ros2_ws/build/ur_robot_driver': AMENT_PREFIX_PATH=/home/mehul-rathore/ros2_ws/install/ur_controllers:/home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mehul-rathore/ros2_ws/install/ur_controllers:/home/mehul-rathore/ros2_ws/install/ur_description:/home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/mehul-rathore/ros2_ws/install/ur_controllers/lib:/home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/mehul-rathore/ros2_ws/src/Universal_Robots_ROS2_Driver/ur_robot_driver -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/mehul-rathore/ros2_ws/install/ur_robot_driver
+[0.125s] -- The C compiler identification is GNU 13.3.0
+[0.226s] -- The CXX compiler identification is GNU 13.3.0
+[0.255s] -- Detecting C compiler ABI info
+[0.428s] -- Detecting C compiler ABI info - done
+[0.436s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.436s] -- Detecting C compile features
+[0.436s] -- Detecting C compile features - done
+[0.459s] -- Detecting CXX compiler ABI info
+[0.621s] -- Detecting CXX compiler ABI info - done
+[0.631s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.632s] -- Detecting CXX compile features
+[0.632s] -- Detecting CXX compile features - done
+[0.633s] [0mur_robot_driver: You did not request a specific build type: selecting 'RelWithDebInfo'.[0m
+[0.636s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.888s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.032s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.100s] -- Found controller_manager: 4.44.0 (/opt/ros/jazzy/share/controller_manager/cmake)
+[1.197s] -- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.204s] -- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.243s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.268s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.376s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.379s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.559s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[1.585s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[1.613s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.410s] -- Found std_srvs: 5.3.7 (/opt/ros/jazzy/share/std_srvs/cmake)
+[2.427s] -- Found tf2_geometry_msgs: 0.36.20 (/opt/ros/jazzy/share/tf2_geometry_msgs/cmake)
+[2.439s] -- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)
+[2.440s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[2.440s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[2.541s] -- Found ur_dashboard_msgs: 3.8.0 (/home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake)
+[2.592s] -- Found ur_msgs: 2.5.0 (/opt/ros/jazzy/share/ur_msgs/cmake)
+[2.968s] -- Found ur_controllers: 3.8.0 (/home/mehul-rathore/ros2_ws/install/ur_controllers/share/ur_controllers/cmake)
+[3.093s] -- Found ur_description: 3.5.1 (/home/mehul-rathore/ros2_ws/install/ur_description/share/ur_description/cmake)
+[3.106s] -- Found launch_testing_ament_cmake: 3.4.10 (/opt/ros/jazzy/share/launch_testing_ament_cmake/cmake)
+[3.107s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[3.295s] -- Found PythonExtra: /usr/bin/python3  
+[3.298s] -- Configuring done (3.3s)
+[3.402s] -- Generating done (0.1s)
+[3.422s] -- Build files have been written to: /home/mehul-rathore/ros2_ws/build/ur_robot_driver
+[3.448s] Invoked command in '/home/mehul-rathore/ros2_ws/build/ur_robot_driver' returned '0': AMENT_PREFIX_PATH=/home/mehul-rathore/ros2_ws/install/ur_controllers:/home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mehul-rathore/ros2_ws/install/ur_controllers:/home/mehul-rathore/ros2_ws/install/ur_description:/home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/mehul-rathore/ros2_ws/install/ur_controllers/lib:/home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/mehul-rathore/ros2_ws/src/Universal_Robots_ROS2_Driver/ur_robot_driver -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/mehul-rathore/ros2_ws/install/ur_robot_driver
+[3.453s] Invoking command in '/home/mehul-rathore/ros2_ws/build/ur_robot_driver': AMENT_PREFIX_PATH=/home/mehul-rathore/ros2_ws/install/ur_controllers:/home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mehul-rathore/ros2_ws/install/ur_controllers:/home/mehul-rathore/ros2_ws/install/ur_description:/home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/mehul-rathore/ros2_ws/install/ur_controllers/lib:/home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/mehul-rathore/ros2_ws/build/ur_robot_driver -- -j6 -l6
+[3.550s] [  5%] [32mBuilding CXX object CMakeFiles/controller_stopper_node.dir/src/controller_stopper.cpp.o[0m
+[3.563s] [ 10%] [32mBuilding CXX object CMakeFiles/dashboard_client.dir/src/dashboard_client_ros.cpp.o[0m
+[3.565s] [ 15%] [32mBuilding CXX object CMakeFiles/robot_state_helper.dir/src/robot_state_helper.cpp.o[0m
+[3.566s] [ 20%] [32mBuilding CXX object CMakeFiles/ur_robot_driver_plugin.dir/src/dashboard_client_ros.cpp.o[0m
+[3.568s] [ 25%] [32mBuilding CXX object CMakeFiles/urscript_interface.dir/src/urscript_interface.cpp.o[0m
+[4.970s] [ 30%] [32mBuilding CXX object CMakeFiles/trajectory_until_node.dir/src/trajectory_until_node.cpp.o[0m
+[73.588s] [ 35%] [32m[1mLinking CXX executable trajectory_until_node[0m
+[75.441s] [ 35%] Built target trajectory_until_node
+[82.637s] [ 40%] [32mBuilding CXX object CMakeFiles/controller_stopper_node.dir/src/controller_stopper_node.cpp.o[0m
+[83.856s] [ 45%] [32m[1mLinking CXX executable urscript_interface[0m
+[85.379s] [ 45%] Built target urscript_interface
+[90.993s] [ 50%] [32m[1mLinking CXX executable controller_stopper_node[0m
+[91.672s] [ 50%] Built target controller_stopper_node
+[118.957s] [ 55%] [32mBuilding CXX object CMakeFiles/robot_state_helper.dir/src/urcl_log_handler.cpp.o[0m
+[120.281s] [ 60%] [32mBuilding CXX object CMakeFiles/robot_state_helper.dir/src/robot_state_helper_node.cpp.o[0m
+[121.079s] [ 65%] [32mBuilding CXX object CMakeFiles/dashboard_client.dir/src/dashboard_client_node.cpp.o[0m
+[121.107s] [ 70%] [32mBuilding CXX object CMakeFiles/ur_robot_driver_plugin.dir/src/urcl_log_handler.cpp.o[0m
+[122.247s] [ 75%] [32mBuilding CXX object CMakeFiles/ur_robot_driver_plugin.dir/src/hardware_interface.cpp.o[0m
+[126.652s] [ 80%] [32m[1mLinking CXX executable robot_state_helper[0m
+[127.983s] [ 80%] Built target robot_state_helper
+[129.761s] [ 85%] [32mBuilding CXX object CMakeFiles/dashboard_client.dir/src/urcl_log_handler.cpp.o[0m
+[130.810s] [ 90%] [32m[1mLinking CXX executable dashboard_client[0m
+[131.632s] [ 90%] Built target dashboard_client
+[148.313s] [ 95%] [32mBuilding CXX object CMakeFiles/ur_robot_driver_plugin.dir/src/robot_state_helper.cpp.o[0m
+[178.137s] [100%] [32m[1mLinking CXX shared library libur_robot_driver_plugin.so[0m
+[179.141s] [100%] Built target ur_robot_driver_plugin
+[179.209s] [100%] Built target ament_cmake_python_symlink_ur_robot_driver
+[179.585s] running egg_info
+[179.592s] creating ur_robot_driver.egg-info
+[179.636s] writing ur_robot_driver.egg-info/PKG-INFO
+[179.637s] writing dependency_links to ur_robot_driver.egg-info/dependency_links.txt
+[179.637s] writing top-level names to ur_robot_driver.egg-info/top_level.txt
+[179.637s] writing manifest file 'ur_robot_driver.egg-info/SOURCES.txt'
+[179.691s] reading manifest file 'ur_robot_driver.egg-info/SOURCES.txt'
+[179.692s] writing manifest file 'ur_robot_driver.egg-info/SOURCES.txt'
+[179.748s] [100%] Built target ament_cmake_python_build_ur_robot_driver_egg
+[179.910s] Invoked command in '/home/mehul-rathore/ros2_ws/build/ur_robot_driver' returned '0': AMENT_PREFIX_PATH=/home/mehul-rathore/ros2_ws/install/ur_controllers:/home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mehul-rathore/ros2_ws/install/ur_controllers:/home/mehul-rathore/ros2_ws/install/ur_description:/home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/mehul-rathore/ros2_ws/install/ur_controllers/lib:/home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/mehul-rathore/ros2_ws/build/ur_robot_driver -- -j6 -l6
+[179.919s] Invoking command in '/home/mehul-rathore/ros2_ws/build/ur_robot_driver': AMENT_PREFIX_PATH=/home/mehul-rathore/ros2_ws/install/ur_controllers:/home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mehul-rathore/ros2_ws/install/ur_controllers:/home/mehul-rathore/ros2_ws/install/ur_description:/home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/mehul-rathore/ros2_ws/install/ur_controllers/lib:/home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/mehul-rathore/ros2_ws/build/ur_robot_driver
+[179.930s] -- Install configuration: "RelWithDebInfo"
+[179.940s] -- Execute custom install script
+[179.940s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_robot_driver/share/ur_robot_driver//hardware_interface_plugin.xml
+[179.945s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_robot_driver/lib/ur_robot_driver/dashboard_client
+[179.968s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_robot_driver/lib/ur_robot_driver/controller_stopper_node
+[179.971s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_robot_driver/lib/ur_robot_driver/urscript_interface
+[179.984s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_robot_driver/lib/ur_robot_driver/robot_state_helper
+[180.004s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_robot_driver/lib/ur_robot_driver/trajectory_until_node
+[180.020s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_robot_driver/lib/libur_robot_driver_plugin.so
+[180.031s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_robot_driver/include/ur_robot_driver/controller_stopper.hpp
+[180.045s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_robot_driver/include/ur_robot_driver/dashboard_client_ros.hpp
+[180.065s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_robot_driver/include/ur_robot_driver/hardware_interface.hpp
+[180.079s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_robot_driver/include/ur_robot_driver/robot_state_helper.hpp
+[180.090s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_robot_driver/include/ur_robot_driver/trajectory_until_node.hpp
+[180.105s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_robot_driver/include/ur_robot_driver/urcl_log_handler.hpp
+[180.119s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_robot_driver/share/ur_robot_driver/environment/library_path.sh
+[180.140s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_robot_driver/share/ur_robot_driver/environment/library_path.dsv
+[180.165s] -- Up-to-date symlink: /home/mehul-rathore/ros2_ws/install/ur_robot_driver/include/ur_robot_driver/controller_stopper.hpp
+[180.165s] -- Up-to-date symlink: /home/mehul-rathore/ros2_ws/install/ur_robot_driver/include/ur_robot_driver/dashboard_client_ros.hpp
+[180.165s] -- Up-to-date symlink: /home/mehul-rathore/ros2_ws/install/ur_robot_driver/include/ur_robot_driver/hardware_interface.hpp
+[180.165s] -- Up-to-date symlink: /home/mehul-rathore/ros2_ws/install/ur_robot_driver/include/ur_robot_driver/robot_state_helper.hpp
+[180.165s] -- Up-to-date symlink: /home/mehul-rathore/ros2_ws/install/ur_robot_driver/include/ur_robot_driver/trajectory_until_node.hpp
+[180.165s] -- Up-to-date symlink: /home/mehul-rathore/ros2_ws/install/ur_robot_driver/include/ur_robot_driver/urcl_log_handler.hpp
+[180.165s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_robot_driver/share/ur_robot_driver/environment/pythonpath.sh
+[180.188s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_robot_driver/share/ur_robot_driver/environment/pythonpath.dsv
+[180.198s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_robot_driver/lib/python3.12/site-packages/ur_robot_driver-3.8.0-py3.12.egg-info/PKG-INFO
+[180.217s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_robot_driver/lib/python3.12/site-packages/ur_robot_driver-3.8.0-py3.12.egg-info/SOURCES.txt
+[180.231s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_robot_driver/lib/python3.12/site-packages/ur_robot_driver-3.8.0-py3.12.egg-info/dependency_links.txt
+[180.243s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_robot_driver/lib/python3.12/site-packages/ur_robot_driver-3.8.0-py3.12.egg-info/top_level.txt
+[180.259s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_robot_driver/lib/python3.12/site-packages/ur_robot_driver/__init__.py
+[180.284s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_robot_driver/lib/ur_robot_driver/tool_communication.py
+[180.297s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_robot_driver/lib/ur_robot_driver/wait_for_robot_description
+[180.320s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_robot_driver/lib/ur_robot_driver/example_move.py
+[180.333s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_robot_driver/lib/ur_robot_driver/start_ursim.sh
+[180.351s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_robot_driver/lib/ur_robot_driver/examples.py
+[180.362s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_robot_driver/lib/ur_robot_driver/force_mode.py
+[180.377s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_robot_driver/lib/ur_robot_driver/move_until_example.py
+[180.388s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_robot_driver/bin/wait_dashboard_server.sh
+[180.406s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_robot_driver/share/ur_robot_driver/config/test_goal_publishers_config.yaml
+[180.419s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_robot_driver/share/ur_robot_driver/config/test_velocity_goal_publishers_config.yaml
+[180.433s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_robot_driver/share/ur_robot_driver/config/ur10_update_rate.yaml
+[180.448s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_robot_driver/share/ur_robot_driver/config/ur10e_update_rate.yaml
+[180.459s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_robot_driver/share/ur_robot_driver/config/ur12e_update_rate.yaml
+[180.469s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_robot_driver/share/ur_robot_driver/config/ur15_update_rate.yaml
+[180.481s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_robot_driver/share/ur_robot_driver/config/ur16e_update_rate.yaml
+[180.491s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_robot_driver/share/ur_robot_driver/config/ur18_update_rate.yaml
+[180.511s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_robot_driver/share/ur_robot_driver/config/ur20_update_rate.yaml
+[180.524s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_robot_driver/share/ur_robot_driver/config/ur30_update_rate.yaml
+[180.538s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_robot_driver/share/ur_robot_driver/config/ur3_update_rate.yaml
+[180.550s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_robot_driver/share/ur_robot_driver/config/ur3e_update_rate.yaml
+[180.566s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_robot_driver/share/ur_robot_driver/config/ur5_update_rate.yaml
+[180.578s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_robot_driver/share/ur_robot_driver/config/ur5e_update_rate.yaml
+[180.588s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_robot_driver/share/ur_robot_driver/config/ur7e_update_rate.yaml
+[180.602s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_robot_driver/share/ur_robot_driver/config/ur8long_update_rate.yaml
+[180.617s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_robot_driver/share/ur_robot_driver/config/ur_controllers.yaml
+[180.632s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_robot_driver/share/ur_robot_driver/launch/test_forward_velocity_controller.launch.py
+[180.646s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_robot_driver/share/ur_robot_driver/launch/test_joint_trajectory_controller.launch.py
+[180.661s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_robot_driver/share/ur_robot_driver/launch/test_scaled_joint_trajectory_controller.launch.py
+[180.674s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_robot_driver/share/ur_robot_driver/launch/ur10.launch.py
+[180.685s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_robot_driver/share/ur_robot_driver/launch/ur10e.launch.py
+[180.709s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_robot_driver/share/ur_robot_driver/launch/ur12e.launch.py
+[180.731s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_robot_driver/share/ur_robot_driver/launch/ur15.launch.py
+[180.746s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_robot_driver/share/ur_robot_driver/launch/ur16e.launch.py
+[180.760s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_robot_driver/share/ur_robot_driver/launch/ur18.launch.py
+[180.771s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_robot_driver/share/ur_robot_driver/launch/ur20.launch.py
+[180.784s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_robot_driver/share/ur_robot_driver/launch/ur3.launch.py
+[180.797s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_robot_driver/share/ur_robot_driver/launch/ur30.launch.py
+[180.809s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_robot_driver/share/ur_robot_driver/launch/ur3e.launch.py
+[180.822s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_robot_driver/share/ur_robot_driver/launch/ur5.launch.py
+[180.836s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_robot_driver/share/ur_robot_driver/launch/ur5e.launch.py
+[180.855s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_robot_driver/share/ur_robot_driver/launch/ur7e.launch.py
+[180.868s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_robot_driver/share/ur_robot_driver/launch/ur8long.launch.py
+[180.878s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_robot_driver/share/ur_robot_driver/launch/ur_control.launch.py
+[180.897s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_robot_driver/share/ur_robot_driver/launch/ur_dashboard_client.launch.py
+[180.906s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_robot_driver/share/ur_robot_driver/launch/ur_rsp.launch.py
+[180.922s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_robot_driver/share/ur_robot_driver/urdf/ur.ros2_control.xacro
+[180.941s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_robot_driver/share/ur_robot_driver/urdf/ur.urdf.xacro
+[180.960s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_robot_driver/share/ament_index/resource_index/package_run_dependencies/ur_robot_driver
+[180.972s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_robot_driver/share/ament_index/resource_index/parent_prefix_path/ur_robot_driver
+[180.986s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_robot_driver/share/ur_robot_driver/environment/ament_prefix_path.sh
+[181.000s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_robot_driver/share/ur_robot_driver/environment/ament_prefix_path.dsv
+[181.014s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_robot_driver/share/ur_robot_driver/environment/path.sh
+[181.029s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_robot_driver/share/ur_robot_driver/environment/path.dsv
+[181.052s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_robot_driver/share/ur_robot_driver/local_setup.bash
+[181.064s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_robot_driver/share/ur_robot_driver/local_setup.sh
+[181.076s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_robot_driver/share/ur_robot_driver/local_setup.zsh
+[181.091s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_robot_driver/share/ur_robot_driver/local_setup.dsv
+[181.101s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_robot_driver/share/ur_robot_driver/package.dsv
+[181.127s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_robot_driver/share/ament_index/resource_index/packages/ur_robot_driver
+[181.134s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_robot_driver/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/ur_robot_driver
+[181.149s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_robot_driver/share/ur_robot_driver/cmake/ament_cmake_export_include_directories-extras.cmake
+[181.161s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_robot_driver/share/ur_robot_driver/cmake/ament_cmake_export_libraries-extras.cmake
+[181.177s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_robot_driver/share/ur_robot_driver/cmake/ament_cmake_export_dependencies-extras.cmake
+[181.189s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_robot_driver/share/ur_robot_driver/cmake/ur_robot_driverConfig.cmake
+[181.212s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_robot_driver/share/ur_robot_driver/cmake/ur_robot_driverConfig-version.cmake
+[181.222s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_robot_driver/share/ur_robot_driver/package.xml
+[181.236s] -- Installing: /home/mehul-rathore/ros2_ws/install/ur_robot_driver/share/ur_robot_driver/resources
+[181.247s] -- Installing: /home/mehul-rathore/ros2_ws/install/ur_robot_driver/share/ur_robot_driver/resources/rtde_output_recipe.txt
+[181.248s] -- Installing: /home/mehul-rathore/ros2_ws/install/ur_robot_driver/share/ur_robot_driver/resources/rs485-1.0.urcap
+[181.249s] -- Installing: /home/mehul-rathore/ros2_ws/install/ur_robot_driver/share/ur_robot_driver/resources/externalcontrol-1.0.5.urcap
+[181.250s] -- Installing: /home/mehul-rathore/ros2_ws/install/ur_robot_driver/share/ur_robot_driver/resources/rtde_input_recipe.txt
+[181.306s] Listing '/home/mehul-rathore/ros2_ws/install/ur_robot_driver/lib/python3.12/site-packages/ur_robot_driver'...
+[181.306s] Compiling '/home/mehul-rathore/ros2_ws/install/ur_robot_driver/lib/python3.12/site-packages/ur_robot_driver/__init__.py'...
+[181.315s] Invoked command in '/home/mehul-rathore/ros2_ws/build/ur_robot_driver' returned '0': AMENT_PREFIX_PATH=/home/mehul-rathore/ros2_ws/install/ur_controllers:/home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mehul-rathore/ros2_ws/install/ur_controllers:/home/mehul-rathore/ros2_ws/install/ur_description:/home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/mehul-rathore/ros2_ws/install/ur_controllers/lib:/home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/mehul-rathore/ros2_ws/build/ur_robot_driver

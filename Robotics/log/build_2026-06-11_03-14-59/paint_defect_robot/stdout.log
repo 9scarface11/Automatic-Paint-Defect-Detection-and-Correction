@@ -1,0 +1,20 @@
+running develop
+running egg_info
+creating paint_defect_robot.egg-info
+writing paint_defect_robot.egg-info/PKG-INFO
+writing dependency_links to paint_defect_robot.egg-info/dependency_links.txt
+writing requirements to paint_defect_robot.egg-info/requires.txt
+writing top-level names to paint_defect_robot.egg-info/top_level.txt
+writing manifest file 'paint_defect_robot.egg-info/SOURCES.txt'
+reading manifest file 'paint_defect_robot.egg-info/SOURCES.txt'
+writing manifest file 'paint_defect_robot.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/mehul-rathore/ros2_ws/install/paint_defect_robot/lib/python3.12/site-packages/paint-defect-robot.egg-link (link to .)
+
+Installed /home/mehul-rathore/ros2_ws/build/paint_defect_robot
+running symlink_data
+creating /home/mehul-rathore/ros2_ws/install/paint_defect_robot/share/ament_index
+creating /home/mehul-rathore/ros2_ws/install/paint_defect_robot/share/ament_index/resource_index
+creating /home/mehul-rathore/ros2_ws/install/paint_defect_robot/share/ament_index/resource_index/packages
+symbolically linking /home/mehul-rathore/ros2_ws/build/paint_defect_robot/resource/paint_defect_robot -> /home/mehul-rathore/ros2_ws/install/paint_defect_robot/share/ament_index/resource_index/packages
+symbolically linking /home/mehul-rathore/ros2_ws/build/paint_defect_robot/package.xml -> /home/mehul-rathore/ros2_ws/install/paint_defect_robot/share/paint_defect_robot

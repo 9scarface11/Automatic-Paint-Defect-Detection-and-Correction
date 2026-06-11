@@ -1,0 +1,223 @@
+[0.019s] Invoking command in '/home/mehul-rathore/ros2_ws/build/ur_controllers': AMENT_PREFIX_PATH=/home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs:/home/mehul-rathore/ros2_ws/install/ur_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/mehul-rathore/ros2_ws/src/Universal_Robots_ROS2_Driver/ur_controllers -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/mehul-rathore/ros2_ws/install/ur_controllers
+[0.109s] -- The C compiler identification is GNU 13.3.0
+[0.185s] -- The CXX compiler identification is GNU 13.3.0
+[0.215s] -- Detecting C compiler ABI info
+[0.365s] -- Detecting C compiler ABI info - done
+[0.373s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.373s] -- Detecting C compile features
+[0.373s] -- Detecting C compile features - done
+[0.389s] -- Detecting CXX compiler ABI info
+[0.526s] -- Detecting CXX compiler ABI info - done
+[0.544s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.544s] -- Detecting CXX compile features
+[0.545s] -- Detecting CXX compile features - done
+[0.551s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.738s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.826s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.887s] -- Found angles: 1.16.1 (/opt/ros/jazzy/share/angles/cmake)
+[0.896s] -- Found controller_interface: 4.44.0 (/opt/ros/jazzy/share/controller_interface/cmake)
+[0.996s] -- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.015s] -- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.030s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.055s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.475s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[1.593s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.600s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.671s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[1.821s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[1.828s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[1.858s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[1.863s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[1.875s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[1.894s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.524s] -- Found joint_trajectory_controller: 4.39.0 (/opt/ros/jazzy/share/joint_trajectory_controller/cmake)
+[2.694s] -- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)
+[2.697s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[2.697s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[2.934s] -- Found std_srvs: 5.3.7 (/opt/ros/jazzy/share/std_srvs/cmake)
+[2.968s] -- Found ur_dashboard_msgs: 3.8.0 (/home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake)
+[3.014s] -- Found ur_msgs: 2.5.0 (/opt/ros/jazzy/share/ur_msgs/cmake)
+[3.087s] -- Found ament_cmake_gmock: 2.5.6 (/opt/ros/jazzy/share/ament_cmake_gmock/cmake)
+[3.099s] -- Found controller_manager: 4.44.0 (/opt/ros/jazzy/share/controller_manager/cmake)
+[3.262s] -- Found ros2_control_test_assets: 4.44.0 (/opt/ros/jazzy/share/ros2_control_test_assets/cmake)
+[3.273s] -- Found gmock sources under '/opt/ros/jazzy/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[3.289s] -- Found ament_cmake_gtest: 2.5.6 (/opt/ros/jazzy/share/ament_cmake_gtest/cmake)
+[3.294s] -- Found gtest sources under '/opt/ros/jazzy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[3.407s] -- Configuring done (3.4s)
+[3.499s] -- Generating done (0.1s)
+[3.525s] -- Build files have been written to: /home/mehul-rathore/ros2_ws/build/ur_controllers
+[3.560s] Invoked command in '/home/mehul-rathore/ros2_ws/build/ur_controllers' returned '0': AMENT_PREFIX_PATH=/home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs:/home/mehul-rathore/ros2_ws/install/ur_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/mehul-rathore/ros2_ws/src/Universal_Robots_ROS2_Driver/ur_controllers -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/mehul-rathore/ros2_ws/install/ur_controllers
+[3.561s] Invoking command in '/home/mehul-rathore/ros2_ws/build/ur_controllers': AMENT_PREFIX_PATH=/home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs:/home/mehul-rathore/ros2_ws/install/ur_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/mehul-rathore/ros2_ws/build/ur_controllers -- -j6 -l6
+[3.639s] [  2%] [34m[1mRunning `/opt/ros/jazzy/bin/generate_parameter_library_cpp /home/mehul-rathore/ros2_ws/build/ur_controllers/include/ur_controllers/tool_contact_controller_parameters.hpp /home/mehul-rathore/ros2_ws/src/Universal_Robots_ROS2_Driver/ur_controllers/src/tool_contact_controller_parameters.yaml `[0m
+[4.271s] [  5%] [34m[1mCreating deprecated header file /home/mehul-rathore/ros2_ws/build/ur_controllers/include/tool_contact_controller_parameters.hpp[0m
+[4.304s] [  5%] Built target tool_contact_controller_parameters
+[4.344s] [  7%] [34m[1mRunning `/opt/ros/jazzy/bin/generate_parameter_library_cpp /home/mehul-rathore/ros2_ws/build/ur_controllers/include/ur_controllers/scaled_joint_trajectory_controller_parameters.hpp /home/mehul-rathore/ros2_ws/src/Universal_Robots_ROS2_Driver/ur_controllers/src/scaled_joint_trajectory_controller_parameters.yaml `[0m
+[4.940s] [ 10%] [34m[1mCreating deprecated header file /home/mehul-rathore/ros2_ws/build/ur_controllers/include/scaled_joint_trajectory_controller_parameters.hpp[0m
+[4.970s] [ 10%] Built target scaled_joint_trajectory_controller_parameters
+[5.003s] [ 12%] [34m[1mRunning `/opt/ros/jazzy/bin/generate_parameter_library_cpp /home/mehul-rathore/ros2_ws/build/ur_controllers/include/ur_controllers/freedrive_mode_controller_parameters.hpp /home/mehul-rathore/ros2_ws/src/Universal_Robots_ROS2_Driver/ur_controllers/src/freedrive_mode_controller_parameters.yaml `[0m
+[5.610s] [ 15%] [34m[1mCreating deprecated header file /home/mehul-rathore/ros2_ws/build/ur_controllers/include/freedrive_mode_controller_parameters.hpp[0m
+[5.637s] [ 15%] Built target freedrive_mode_controller_parameters
+[5.675s] [ 17%] [34m[1mRunning `/opt/ros/jazzy/bin/generate_parameter_library_cpp /home/mehul-rathore/ros2_ws/build/ur_controllers/include/ur_controllers/passthrough_trajectory_controller_parameters.hpp /home/mehul-rathore/ros2_ws/src/Universal_Robots_ROS2_Driver/ur_controllers/src/passthrough_trajectory_controller_parameters.yaml `[0m
+[6.273s] [ 20%] [34m[1mCreating deprecated header file /home/mehul-rathore/ros2_ws/build/ur_controllers/include/passthrough_trajectory_controller_parameters.hpp[0m
+[6.319s] [ 20%] Built target passthrough_trajectory_controller_parameters
+[6.366s] [ 23%] [34m[1mRunning `/opt/ros/jazzy/bin/generate_parameter_library_cpp /home/mehul-rathore/ros2_ws/build/ur_controllers/include/ur_controllers/ur_configuration_controller_parameters.hpp /home/mehul-rathore/ros2_ws/src/Universal_Robots_ROS2_Driver/ur_controllers/src/ur_configuration_controller_parameters.yaml `[0m
+[6.947s] [ 25%] [34m[1mCreating deprecated header file /home/mehul-rathore/ros2_ws/build/ur_controllers/include/ur_configuration_controller_parameters.hpp[0m
+[6.990s] [ 25%] Built target ur_configuration_controller_parameters
+[7.052s] [ 28%] [32mBuilding CXX object gmock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o[0m
+[8.419s] [ 30%] [32m[1mLinking CXX static library libgmock_main.a[0m
+[8.496s] [ 30%] Built target gmock_main
+[8.543s] [ 33%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/opt/ros/jazzy/src/gtest_vendor/src/gtest-all.cc.o[0m
+[11.892s] [ 35%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/src/gmock-all.cc.o[0m
+[13.869s] [ 38%] [32m[1mLinking CXX static library libgmock.a[0m
+[13.983s] [ 38%] Built target gmock
+[14.018s] [ 41%] [34m[1mRunning `/opt/ros/jazzy/bin/generate_parameter_library_cpp /home/mehul-rathore/ros2_ws/build/ur_controllers/include/ur_controllers/friction_model_controller_parameters.hpp /home/mehul-rathore/ros2_ws/src/Universal_Robots_ROS2_Driver/ur_controllers/src/friction_model_controller_parameters.yaml `[0m
+[14.020s] [ 43%] [34m[1mRunning `/opt/ros/jazzy/bin/generate_parameter_library_cpp /home/mehul-rathore/ros2_ws/build/ur_controllers/include/ur_controllers/gpio_controller_parameters.hpp /home/mehul-rathore/ros2_ws/src/Universal_Robots_ROS2_Driver/ur_controllers/src/gpio_controller_parameters.yaml `[0m
+[14.025s] [ 46%] [34m[1mRunning `/opt/ros/jazzy/bin/generate_parameter_library_cpp /home/mehul-rathore/ros2_ws/build/ur_controllers/include/ur_controllers/speed_scaling_state_broadcaster_parameters.hpp /home/mehul-rathore/ros2_ws/src/Universal_Robots_ROS2_Driver/ur_controllers/src/speed_scaling_state_broadcaster_parameters.yaml `[0m
+[14.480s] [ 48%] [34m[1mCreating deprecated header file /home/mehul-rathore/ros2_ws/build/ur_controllers/include/friction_model_controller_parameters.hpp[0m
+[14.481s] [ 51%] [34m[1mCreating deprecated header file /home/mehul-rathore/ros2_ws/build/ur_controllers/include/gpio_controller_parameters.hpp[0m
+[14.519s] [ 51%] Built target gpio_controller_parameters
+[14.522s] [ 51%] Built target friction_model_controller_parameters
+[14.524s] [ 53%] [34m[1mCreating deprecated header file /home/mehul-rathore/ros2_ws/build/ur_controllers/include/speed_scaling_state_broadcaster_parameters.hpp[0m
+[14.550s] [ 53%] Built target speed_scaling_state_broadcaster_parameters
+[14.562s] [ 56%] [34m[1mRunning `/opt/ros/jazzy/bin/generate_parameter_library_cpp /home/mehul-rathore/ros2_ws/build/ur_controllers/include/ur_controllers/force_mode_controller_parameters.hpp /home/mehul-rathore/ros2_ws/src/Universal_Robots_ROS2_Driver/ur_controllers/src/force_mode_controller_parameters.yaml `[0m
+[15.134s] [ 58%] [34m[1mCreating deprecated header file /home/mehul-rathore/ros2_ws/build/ur_controllers/include/force_mode_controller_parameters.hpp[0m
+[15.158s] [ 58%] Built target force_mode_controller_parameters
+[15.202s] [ 64%] [32mBuilding CXX object CMakeFiles/ur_controllers.dir/src/force_mode_controller.cpp.o[0m
+[15.202s] [ 64%] [32mBuilding CXX object CMakeFiles/ur_controllers.dir/src/tool_contact_controller.cpp.o[0m
+[15.208s] [ 66%] [32mBuilding CXX object CMakeFiles/ur_controllers.dir/src/friction_model_controller.cpp.o[0m
+[16.234s] [ 69%] [32mBuilding CXX object CMakeFiles/ur_controllers.dir/src/freedrive_mode_controller.cpp.o[0m
+[17.298s] [ 71%] [32mBuilding CXX object CMakeFiles/ur_controllers.dir/src/speed_scaling_state_broadcaster.cpp.o[0m
+[18.556s] [ 74%] [32mBuilding CXX object CMakeFiles/ur_controllers.dir/src/scaled_joint_trajectory_controller.cpp.o[0m
+[24.328s] [ 76%] [32mBuilding CXX object CMakeFiles/ur_controllers.dir/src/gpio_controller.cpp.o[0m
+[26.392s] [ 79%] [32mBuilding CXX object CMakeFiles/ur_controllers.dir/src/passthrough_trajectory_controller.cpp.o[0m
+[26.719s] [ 82%] [32mBuilding CXX object CMakeFiles/ur_controllers.dir/src/ur_configuration_controller.cpp.o[0m
+[39.643s] [ 84%] [32m[1mLinking CXX shared library libur_controllers.so[0m
+[41.770s] [ 84%] Built target ur_controllers
+[41.807s] [ 89%] [32mBuilding CXX object CMakeFiles/test_load_force_mode_controller.dir/test/test_load_force_mode_controller.cpp.o[0m
+[41.809s] [ 89%] [32mBuilding CXX object CMakeFiles/test_load_friction_model_controller.dir/test/test_load_friction_model_controller.cpp.o[0m
+[41.823s] [ 92%] [32mBuilding CXX object CMakeFiles/test_load_freedrive_mode_controller.dir/test/test_load_freedrive_mode_controller.cpp.o[0m
+[48.061s] [ 94%] [32m[1mLinking CXX executable test_load_freedrive_mode_controller[0m
+[48.204s] [ 97%] [32m[1mLinking CXX executable test_load_friction_model_controller[0m
+[48.461s] [100%] [32m[1mLinking CXX executable test_load_force_mode_controller[0m
+[48.715s] [100%] Built target test_load_friction_model_controller
+[48.720s] [100%] Built target test_load_freedrive_mode_controller
+[48.972s] [100%] Built target test_load_force_mode_controller
+[48.994s] Invoked command in '/home/mehul-rathore/ros2_ws/build/ur_controllers' returned '0': AMENT_PREFIX_PATH=/home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs:/home/mehul-rathore/ros2_ws/install/ur_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/mehul-rathore/ros2_ws/build/ur_controllers -- -j6 -l6
+[48.995s] Invoking command in '/home/mehul-rathore/ros2_ws/build/ur_controllers': AMENT_PREFIX_PATH=/home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs:/home/mehul-rathore/ros2_ws/install/ur_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/mehul-rathore/ros2_ws/build/ur_controllers
+[49.012s] -- Install configuration: ""
+[49.012s] -- Execute custom install script
+[49.012s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_controllers/include/ur_controllers/force_mode_controller_parameters.hpp
+[49.025s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_controllers/include/ur_controllers/freedrive_mode_controller_parameters.hpp
+[49.042s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_controllers/include/ur_controllers/friction_model_controller_parameters.hpp
+[49.056s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_controllers/include/ur_controllers/gpio_controller_parameters.hpp
+[49.074s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_controllers/include/ur_controllers/passthrough_trajectory_controller_parameters.hpp
+[49.091s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_controllers/include/ur_controllers/scaled_joint_trajectory_controller_parameters.hpp
+[49.108s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_controllers/include/ur_controllers/speed_scaling_state_broadcaster_parameters.hpp
+[49.120s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_controllers/include/ur_controllers/tool_contact_controller_parameters.hpp
+[49.137s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_controllers/include/ur_controllers/ur_configuration_controller_parameters.hpp
+[49.146s] -- Up-to-date symlink: /home/mehul-rathore/ros2_ws/install/ur_controllers/include/ur_controllers/force_mode_controller_parameters.hpp
+[49.146s] -- Up-to-date symlink: /home/mehul-rathore/ros2_ws/install/ur_controllers/include/ur_controllers/freedrive_mode_controller_parameters.hpp
+[49.146s] -- Up-to-date symlink: /home/mehul-rathore/ros2_ws/install/ur_controllers/include/ur_controllers/friction_model_controller_parameters.hpp
+[49.146s] -- Up-to-date symlink: /home/mehul-rathore/ros2_ws/install/ur_controllers/include/ur_controllers/gpio_controller_parameters.hpp
+[49.146s] -- Up-to-date symlink: /home/mehul-rathore/ros2_ws/install/ur_controllers/include/ur_controllers/passthrough_trajectory_controller_parameters.hpp
+[49.146s] -- Up-to-date symlink: /home/mehul-rathore/ros2_ws/install/ur_controllers/include/ur_controllers/scaled_joint_trajectory_controller_parameters.hpp
+[49.146s] -- Up-to-date symlink: /home/mehul-rathore/ros2_ws/install/ur_controllers/include/ur_controllers/speed_scaling_state_broadcaster_parameters.hpp
+[49.146s] -- Up-to-date symlink: /home/mehul-rathore/ros2_ws/install/ur_controllers/include/ur_controllers/tool_contact_controller_parameters.hpp
+[49.146s] -- Up-to-date symlink: /home/mehul-rathore/ros2_ws/install/ur_controllers/include/ur_controllers/ur_configuration_controller_parameters.hpp
+[49.146s] -- Up-to-date symlink: /home/mehul-rathore/ros2_ws/install/ur_controllers/include/ur_controllers/force_mode_controller_parameters.hpp
+[49.146s] -- Up-to-date symlink: /home/mehul-rathore/ros2_ws/install/ur_controllers/include/ur_controllers/freedrive_mode_controller_parameters.hpp
+[49.146s] -- Up-to-date symlink: /home/mehul-rathore/ros2_ws/install/ur_controllers/include/ur_controllers/friction_model_controller_parameters.hpp
+[49.146s] -- Up-to-date symlink: /home/mehul-rathore/ros2_ws/install/ur_controllers/include/ur_controllers/gpio_controller_parameters.hpp
+[49.147s] -- Up-to-date symlink: /home/mehul-rathore/ros2_ws/install/ur_controllers/include/ur_controllers/passthrough_trajectory_controller_parameters.hpp
+[49.147s] -- Up-to-date symlink: /home/mehul-rathore/ros2_ws/install/ur_controllers/include/ur_controllers/scaled_joint_trajectory_controller_parameters.hpp
+[49.147s] -- Up-to-date symlink: /home/mehul-rathore/ros2_ws/install/ur_controllers/include/ur_controllers/speed_scaling_state_broadcaster_parameters.hpp
+[49.147s] -- Up-to-date symlink: /home/mehul-rathore/ros2_ws/install/ur_controllers/include/ur_controllers/tool_contact_controller_parameters.hpp
+[49.147s] -- Up-to-date symlink: /home/mehul-rathore/ros2_ws/install/ur_controllers/include/ur_controllers/ur_configuration_controller_parameters.hpp
+[49.147s] -- Up-to-date symlink: /home/mehul-rathore/ros2_ws/install/ur_controllers/include/ur_controllers/force_mode_controller_parameters.hpp
+[49.149s] -- Up-to-date symlink: /home/mehul-rathore/ros2_ws/install/ur_controllers/include/ur_controllers/freedrive_mode_controller_parameters.hpp
+[49.149s] -- Up-to-date symlink: /home/mehul-rathore/ros2_ws/install/ur_controllers/include/ur_controllers/friction_model_controller_parameters.hpp
+[49.149s] -- Up-to-date symlink: /home/mehul-rathore/ros2_ws/install/ur_controllers/include/ur_controllers/gpio_controller_parameters.hpp
+[49.149s] -- Up-to-date symlink: /home/mehul-rathore/ros2_ws/install/ur_controllers/include/ur_controllers/passthrough_trajectory_controller_parameters.hpp
+[49.149s] -- Up-to-date symlink: /home/mehul-rathore/ros2_ws/install/ur_controllers/include/ur_controllers/scaled_joint_trajectory_controller_parameters.hpp
+[49.149s] -- Up-to-date symlink: /home/mehul-rathore/ros2_ws/install/ur_controllers/include/ur_controllers/speed_scaling_state_broadcaster_parameters.hpp
+[49.149s] -- Up-to-date symlink: /home/mehul-rathore/ros2_ws/install/ur_controllers/include/ur_controllers/tool_contact_controller_parameters.hpp
+[49.149s] -- Up-to-date symlink: /home/mehul-rathore/ros2_ws/install/ur_controllers/include/ur_controllers/ur_configuration_controller_parameters.hpp
+[49.149s] -- Up-to-date symlink: /home/mehul-rathore/ros2_ws/install/ur_controllers/include/ur_controllers/force_mode_controller_parameters.hpp
+[49.149s] -- Up-to-date symlink: /home/mehul-rathore/ros2_ws/install/ur_controllers/include/ur_controllers/freedrive_mode_controller_parameters.hpp
+[49.150s] -- Up-to-date symlink: /home/mehul-rathore/ros2_ws/install/ur_controllers/include/ur_controllers/friction_model_controller_parameters.hpp
+[49.151s] -- Up-to-date symlink: /home/mehul-rathore/ros2_ws/install/ur_controllers/include/ur_controllers/gpio_controller_parameters.hpp
+[49.151s] -- Up-to-date symlink: /home/mehul-rathore/ros2_ws/install/ur_controllers/include/ur_controllers/passthrough_trajectory_controller_parameters.hpp
+[49.151s] -- Up-to-date symlink: /home/mehul-rathore/ros2_ws/install/ur_controllers/include/ur_controllers/scaled_joint_trajectory_controller_parameters.hpp
+[49.151s] -- Up-to-date symlink: /home/mehul-rathore/ros2_ws/install/ur_controllers/include/ur_controllers/speed_scaling_state_broadcaster_parameters.hpp
+[49.151s] -- Up-to-date symlink: /home/mehul-rathore/ros2_ws/install/ur_controllers/include/ur_controllers/tool_contact_controller_parameters.hpp
+[49.151s] -- Up-to-date symlink: /home/mehul-rathore/ros2_ws/install/ur_controllers/include/ur_controllers/ur_configuration_controller_parameters.hpp
+[49.151s] -- Up-to-date symlink: /home/mehul-rathore/ros2_ws/install/ur_controllers/include/ur_controllers/force_mode_controller_parameters.hpp
+[49.151s] -- Up-to-date symlink: /home/mehul-rathore/ros2_ws/install/ur_controllers/include/ur_controllers/freedrive_mode_controller_parameters.hpp
+[49.152s] -- Up-to-date symlink: /home/mehul-rathore/ros2_ws/install/ur_controllers/include/ur_controllers/friction_model_controller_parameters.hpp
+[49.153s] -- Up-to-date symlink: /home/mehul-rathore/ros2_ws/install/ur_controllers/include/ur_controllers/gpio_controller_parameters.hpp
+[49.153s] -- Up-to-date symlink: /home/mehul-rathore/ros2_ws/install/ur_controllers/include/ur_controllers/passthrough_trajectory_controller_parameters.hpp
+[49.153s] -- Up-to-date symlink: /home/mehul-rathore/ros2_ws/install/ur_controllers/include/ur_controllers/scaled_joint_trajectory_controller_parameters.hpp
+[49.154s] -- Up-to-date symlink: /home/mehul-rathore/ros2_ws/install/ur_controllers/include/ur_controllers/speed_scaling_state_broadcaster_parameters.hpp
+[49.154s] -- Up-to-date symlink: /home/mehul-rathore/ros2_ws/install/ur_controllers/include/ur_controllers/tool_contact_controller_parameters.hpp
+[49.155s] -- Up-to-date symlink: /home/mehul-rathore/ros2_ws/install/ur_controllers/include/ur_controllers/ur_configuration_controller_parameters.hpp
+[49.155s] -- Up-to-date symlink: /home/mehul-rathore/ros2_ws/install/ur_controllers/include/ur_controllers/force_mode_controller_parameters.hpp
+[49.155s] -- Up-to-date symlink: /home/mehul-rathore/ros2_ws/install/ur_controllers/include/ur_controllers/freedrive_mode_controller_parameters.hpp
+[49.156s] -- Up-to-date symlink: /home/mehul-rathore/ros2_ws/install/ur_controllers/include/ur_controllers/friction_model_controller_parameters.hpp
+[49.156s] -- Up-to-date symlink: /home/mehul-rathore/ros2_ws/install/ur_controllers/include/ur_controllers/gpio_controller_parameters.hpp
+[49.156s] -- Up-to-date symlink: /home/mehul-rathore/ros2_ws/install/ur_controllers/include/ur_controllers/passthrough_trajectory_controller_parameters.hpp
+[49.157s] -- Up-to-date symlink: /home/mehul-rathore/ros2_ws/install/ur_controllers/include/ur_controllers/scaled_joint_trajectory_controller_parameters.hpp
+[49.157s] -- Up-to-date symlink: /home/mehul-rathore/ros2_ws/install/ur_controllers/include/ur_controllers/speed_scaling_state_broadcaster_parameters.hpp
+[49.157s] -- Up-to-date symlink: /home/mehul-rathore/ros2_ws/install/ur_controllers/include/ur_controllers/tool_contact_controller_parameters.hpp
+[49.157s] -- Up-to-date symlink: /home/mehul-rathore/ros2_ws/install/ur_controllers/include/ur_controllers/ur_configuration_controller_parameters.hpp
+[49.158s] -- Up-to-date symlink: /home/mehul-rathore/ros2_ws/install/ur_controllers/include/ur_controllers/force_mode_controller_parameters.hpp
+[49.158s] -- Up-to-date symlink: /home/mehul-rathore/ros2_ws/install/ur_controllers/include/ur_controllers/freedrive_mode_controller_parameters.hpp
+[49.158s] -- Up-to-date symlink: /home/mehul-rathore/ros2_ws/install/ur_controllers/include/ur_controllers/friction_model_controller_parameters.hpp
+[49.158s] -- Up-to-date symlink: /home/mehul-rathore/ros2_ws/install/ur_controllers/include/ur_controllers/gpio_controller_parameters.hpp
+[49.159s] -- Up-to-date symlink: /home/mehul-rathore/ros2_ws/install/ur_controllers/include/ur_controllers/passthrough_trajectory_controller_parameters.hpp
+[49.159s] -- Up-to-date symlink: /home/mehul-rathore/ros2_ws/install/ur_controllers/include/ur_controllers/scaled_joint_trajectory_controller_parameters.hpp
+[49.159s] -- Up-to-date symlink: /home/mehul-rathore/ros2_ws/install/ur_controllers/include/ur_controllers/speed_scaling_state_broadcaster_parameters.hpp
+[49.160s] -- Up-to-date symlink: /home/mehul-rathore/ros2_ws/install/ur_controllers/include/ur_controllers/tool_contact_controller_parameters.hpp
+[49.160s] -- Up-to-date symlink: /home/mehul-rathore/ros2_ws/install/ur_controllers/include/ur_controllers/ur_configuration_controller_parameters.hpp
+[49.170s] -- Up-to-date symlink: /home/mehul-rathore/ros2_ws/install/ur_controllers/include/ur_controllers/force_mode_controller_parameters.hpp
+[49.170s] -- Up-to-date symlink: /home/mehul-rathore/ros2_ws/install/ur_controllers/include/ur_controllers/freedrive_mode_controller_parameters.hpp
+[49.170s] -- Up-to-date symlink: /home/mehul-rathore/ros2_ws/install/ur_controllers/include/ur_controllers/friction_model_controller_parameters.hpp
+[49.171s] -- Up-to-date symlink: /home/mehul-rathore/ros2_ws/install/ur_controllers/include/ur_controllers/gpio_controller_parameters.hpp
+[49.171s] -- Up-to-date symlink: /home/mehul-rathore/ros2_ws/install/ur_controllers/include/ur_controllers/passthrough_trajectory_controller_parameters.hpp
+[49.171s] -- Up-to-date symlink: /home/mehul-rathore/ros2_ws/install/ur_controllers/include/ur_controllers/scaled_joint_trajectory_controller_parameters.hpp
+[49.171s] -- Up-to-date symlink: /home/mehul-rathore/ros2_ws/install/ur_controllers/include/ur_controllers/speed_scaling_state_broadcaster_parameters.hpp
+[49.171s] -- Up-to-date symlink: /home/mehul-rathore/ros2_ws/install/ur_controllers/include/ur_controllers/tool_contact_controller_parameters.hpp
+[49.171s] -- Up-to-date symlink: /home/mehul-rathore/ros2_ws/install/ur_controllers/include/ur_controllers/ur_configuration_controller_parameters.hpp
+[49.171s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_controllers/share/ur_controllers//controller_plugins.xml
+[49.173s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_controllers/lib/libur_controllers.so
+[49.191s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_controllers/include/ur_controllers/force_mode_controller.hpp
+[49.213s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_controllers/include/ur_controllers/freedrive_mode_controller.hpp
+[49.233s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_controllers/include/ur_controllers/friction_model_controller.hpp
+[49.245s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_controllers/include/ur_controllers/gpio_controller.hpp
+[49.256s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_controllers/include/ur_controllers/passthrough_trajectory_controller.hpp
+[49.278s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_controllers/include/ur_controllers/scaled_joint_trajectory_controller.hpp
+[49.290s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_controllers/include/ur_controllers/speed_scaling_state_broadcaster.hpp
+[49.305s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_controllers/include/ur_controllers/tool_contact_controller.hpp
+[49.319s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_controllers/include/ur_controllers/ur_configuration_controller.hpp
+[49.331s] -- Up-to-date symlink: /home/mehul-rathore/ros2_ws/install/ur_controllers/share/ur_controllers/controller_plugins.xml
+[49.331s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_controllers/share/ur_controllers/environment/library_path.sh
+[49.343s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_controllers/share/ur_controllers/environment/library_path.dsv
+[49.362s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_controllers/share/ament_index/resource_index/package_run_dependencies/ur_controllers
+[49.374s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_controllers/share/ament_index/resource_index/parent_prefix_path/ur_controllers
+[49.383s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_controllers/share/ur_controllers/environment/ament_prefix_path.sh
+[49.398s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_controllers/share/ur_controllers/environment/ament_prefix_path.dsv
+[49.413s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_controllers/share/ur_controllers/environment/path.sh
+[49.430s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_controllers/share/ur_controllers/environment/path.dsv
+[49.442s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_controllers/share/ur_controllers/local_setup.bash
+[49.457s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_controllers/share/ur_controllers/local_setup.sh
+[49.469s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_controllers/share/ur_controllers/local_setup.zsh
+[49.479s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_controllers/share/ur_controllers/local_setup.dsv
+[49.493s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_controllers/share/ur_controllers/package.dsv
+[49.509s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_controllers/share/ament_index/resource_index/packages/ur_controllers
+[49.523s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_controllers/share/ament_index/resource_index/controller_interface__pluginlib__plugin/ur_controllers
+[49.535s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_controllers/share/ur_controllers/cmake/ament_cmake_export_dependencies-extras.cmake
+[49.552s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_controllers/share/ur_controllers/cmake/ament_cmake_export_include_directories-extras.cmake
+[49.564s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_controllers/share/ur_controllers/cmake/ament_cmake_export_libraries-extras.cmake
+[49.578s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_controllers/share/ur_controllers/cmake/ur_controllersConfig.cmake
+[49.589s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_controllers/share/ur_controllers/cmake/ur_controllersConfig-version.cmake
+[49.605s] -- Symlinking: /home/mehul-rathore/ros2_ws/install/ur_controllers/share/ur_controllers/package.xml
+[49.621s] Invoked command in '/home/mehul-rathore/ros2_ws/build/ur_controllers' returned '0': AMENT_PREFIX_PATH=/home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs:/home/mehul-rathore/ros2_ws/install/ur_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mehul-rathore/ros2_ws/install/ur_dashboard_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/mehul-rathore/ros2_ws/build/ur_controllers
