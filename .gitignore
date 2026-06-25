@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+*.egg-info/
+models/*.pt
+models/*.pth
+models/*.h5
+*.yaml~
+*.xacro~

@@ -1,0 +1,278 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="ur">
+
+  <!-- ================================================ -->
+  <!-- SECTION 1 — BRING IN THE UR5e ROBOT DEFINITION  -->
+  <!-- ================================================ -->
+  <!--
+    We don't write the UR5e from scratch.
+    We include their macro file which contains a "function"
+    called xacro:ur_robot. We call that function below.
+    Think of this like "import ur_robot from ur_description"
+  -->
+  <xacro:include filename="$(find ur_description)/urdf/ur_macro.xacro"/>
+
+  <!-- ================================================ -->
+  <!-- SECTION 2 — WORLD LINK                          -->
+  <!-- ================================================ -->
+  <!--
+    Every robot needs a fixed point in space to attach to.
+    "world" is that fixed point. The robot base connects to this.
+    Think of it as the floor the robot is bolted to.
+  -->
+  <link name="world"/>
+
+  <!-- ================================================ -->
+  <!-- SECTION 3 — BUILD THE UR5e ROBOT                -->
+  <!-- ================================================ -->
+  <!--
+    Here we actually call the macro (the function we imported).
+    We pass parameters telling it:
+    - which robot config files to use (ur5e specific values)
+    - what to call the robot
+    - where to attach it (parent="world")
+
+    This single call expands into ALL the UR5e links and joints.
+    shoulder_link, upper_arm_link, forearm_link etc all come from here.
+  -->
+  <xacro:ur_robot
+    name="ur"
+    tf_prefix=""
+    parent="world"
+    joint_limits_parameters_file="$(find ur_description)/config/ur5e/joint_limits.yaml"
+    kinematics_parameters_file="$(find ur_description)/config/ur5e/default_kinematics.yaml"
+    physical_parameters_file="$(find ur_description)/config/ur5e/physical_parameters.yaml"
+    visual_parameters_file="$(find ur_description)/config/ur5e/visual_parameters.yaml">
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+  </xacro:ur_robot>
+
+  <!-- ================================================ -->
+  <!-- SECTION 4 — CAMERA PHYSICAL LINK                -->
+  <!-- ================================================ -->
+  <!--
+    This describes the physical camera body.
+    A small black box mounted on the end effector.
+    It has:
+    - visual: what it looks like in Gazebo (a box)
+    - inertial: mass and inertia so physics works correctly
+    
+    Think of this as: "here is a physical object called camera_link"
+  -->
+  <link name="camera_link">
+    <visual>
+      <origin xyz = "0 0 0" rpy = "0 0 0"/>
+      <geometry>
+        <box size="0.04 0.04 0.02"/>
+      </geometry>
+      <material name="black">
+        <color rgba="0.1 0.1 0.1 1.0"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz = "0 0 0" rpy = "0 0 0"/>
+      <geometry>
+        <box size= "0.04 0.04 0.02"/>
+      </geometry>
+    </collision>
+    <inertial>
+      <mass value="0.05"/>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <inertia ixx="0.0001" iyy="0.0001" izz="0.0001"
+               ixy="0.0" ixz="0.0" iyz="0.0"/>
+    </inertial>
+  </link>
+
+  <!-- ================================================ -->
+  <!-- SECTION 5 — ATTACH CAMERA TO ROBOT              -->
+  <!-- ================================================ -->
+  <!--
+    This joint connects camera_link to tool0 (end effector).
+    type="fixed" means it doesnt move, its rigidly attached.
+    
+    xyz="0.05 0 0.03" means:
+      0.05 = 5cm forward from tool0
+      0    = 0cm sideways
+      0.03 = 3cm upward
+
+    rpy="0 1.5708 0" means rotate 90 degrees around Y axis
+    so the camera faces forward (away from the arm)
+
+    Think of this as: "bolt the camera onto the end effector here"
+  -->
+  <joint name="camera_joint" type="fixed">
+    <parent link="tool0"/>
+    <child link="camera_link"/>
+    <origin xyz="0.0 0 0" rpy="0 0 0"/>
+  </joint>
+
+  <!-- ================================================ -->
+  <!-- SECTION 6 — CAMERA OPTICAL FRAME                -->
+  <!-- ================================================ -->
+  <!--
+    This is a coordinate frame, not a physical object.
+    It has no visual, no mass, no collision.
+    It only exists to give the camera the correct orientation
+    for ROS image processing.
+
+    ROS camera convention:
+      Z = forward (into the scene)
+      X = right
+      Y = down
+
+    Robot convention is different (X forward, Z up).
+    This frame bridges that gap.
+
+    Think of it as: "a virtual frame that represents
+    where and how the camera is looking"
+  -->
+  <link name="camera_optical_frame"/>
+  <joint name="camera_optical_joint" type="fixed">
+    <parent link="camera_link"/>
+    <child link="camera_optical_frame"/>
+    <origin xyz="0 0 0" rpy="-1.5708 0 -1.5708"/>
+  </joint>
+
+  <!-- ================================================ -->
+  <!-- SECTION 7 — GAZEBO CAMERA SENSOR                -->
+  <!-- ================================================ -->
+  <!--
+    This is Gazebo-specific. Pure URDF doesn't understand this.
+    It tells Gazebo: "attach a real camera sensor to camera_link"
+
+    Parameters:
+    - update_rate: 30 images per second
+    - topic: publish images to /camera/image_raw
+    - horizontal_fov: field of view in radians (1.047 = 60 degrees)
+    - width/height: image resolution (640x480)
+    - clip near/far: minimum and maximum distance camera can see
+    - gz_frame_id: which frame to use for the image header
+                   (camera_optical_frame, following ROS convention)
+
+    Think of it as: "plug a real camera sensor into that physical box"
+  -->
+  <gazebo reference="wrist_3_link">
+    <sensor name="camera" type="camera">
+        <always_on>true</always_on>
+        <update_rate>30</update_rate>
+        <topic>/camera/image_raw</topic>
+        <visualize>true</visualize>
+        <camera>
+            <horizontal_fov>1.047</horizontal_fov>
+            <image>
+                <width>640</width>
+                <height>480</height>
+                <format>R8G8B8</format>
+            </image>
+            <clip>
+                <near>0.01</near>
+                <far>10.0</far>
+            </clip>
+        </camera>
+    </sensor>
+  </gazebo>
+  <!-- ================================================ -->
+  <!-- SECTION 8 — ROS2_CONTROL DEFINITION             -->
+  <!-- ================================================ -->
+  <!--
+    This tells ros2_control which joints exist and how to control them.
+    
+    hardware plugin "gz_ros2_control/GazeboSimSystem" means:
+    "use Gazebo as the hardware backend"
+    In real robot you would put the actual UR hardware plugin here.
+
+    For each joint we define:
+    - command_interface: what we SEND to the joint (position)
+    - state_interface: what we READ from the joint (position, velocity)
+
+    Think of it as: "here are the 6 motors, they accept position
+    commands and report back position and velocity"
+  -->
+  <ros2_control name="GazeboSystem" type="system">
+    <hardware>
+      <plugin>gz_ros2_control/GazeboSimSystem</plugin>
+    </hardware>
+
+    <joint name="shoulder_pan_joint">
+      <command_interface name="position">
+        <param name="min">-6.28</param>
+        <param name="max">6.28</param>
+      </command_interface>
+      <state_interface name="position"/>
+      <state_interface name="velocity"/>
+    </joint>
+
+    <joint name="shoulder_lift_joint">
+      <command_interface name="position">
+        <param name="min">-6.28</param>
+        <param name="max">6.28</param>
+      </command_interface>
+      <state_interface name="position"/>
+      <state_interface name="velocity"/>
+    </joint>
+
+    <joint name="elbow_joint">
+      <command_interface name="position">
+        <param name="min">-3.14</param>
+        <param name="max">3.14</param>
+      </command_interface>
+      <state_interface name="position"/>
+      <state_interface name="velocity"/>
+    </joint>
+
+    <joint name="wrist_1_joint">
+      <command_interface name="position">
+        <param name="min">-6.28</param>
+        <param name="max">6.28</param>
+      </command_interface>
+      <state_interface name="position"/>
+      <state_interface name="velocity"/>
+    </joint>
+
+    <joint name="wrist_2_joint">
+      <command_interface name="position">
+        <param name="min">-6.28</param>
+        <param name="max">6.28</param>
+      </command_interface>
+      <state_interface name="position"/>
+      <state_interface name="velocity"/>
+    </joint>
+
+    <joint name="wrist_3_joint">
+      <command_interface name="position">
+        <param name="min">-6.28</param>
+        <param name="max">6.28</param>
+      </command_interface>
+      <state_interface name="position"/>
+      <state_interface name="velocity"/>
+    </joint>
+
+  </ros2_control>
+
+  <!-- ================================================ -->
+  <!-- SECTION 9 — GAZEBO ROS2_CONTROL PLUGIN          -->
+  <!-- ================================================ -->
+  <!--
+    This is the bridge between Gazebo and ros2_control.
+    
+    Without this plugin:
+      Gazebo simulates physics but ros2_control cant talk to it
+    
+    With this plugin:
+      Gazebo physics <-> plugin <-> ros2_control <-> your nodes
+    
+    parameters file points to your controller YAML which tells
+    ros2_control which controllers to load (joint_trajectory_controller etc)
+
+    Think of it as: "install the communication bridge between
+    Gazebo's physics engine and ROS2's control system"
+  -->
+  <gazebo>
+    <plugin filename="libgz_ros2_control-system.so"
+            name="gz_ros2_control::GazeboSimROS2ControlPlugin">
+      <parameters>
+        $(find paint_defect_robot)/config/ros2_controllers.yaml
+      </parameters>
+    </plugin>
+  </gazebo>
+
+</robot>
