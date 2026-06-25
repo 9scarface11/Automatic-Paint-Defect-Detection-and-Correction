@@ -1,40 +1,43 @@
-# Paint Defect Detection System
+# Automated Paint Defect Detection and Correction
 
-This repository contains an end-to-end paint defect detection system based on deep learning.
+A full-stack robotics project combining a trained CNN classifier with a ROS2-based robot arm pipeline to automatically detect and remove defective painted surfaces in simulation.
+------------------------------------------------------------------------------------------------------------------
+## Pipeline
+Camera image
 
-## Project Structure
+→ ResNet18 CNN (defect / ok)
 
-Automatic-Paint-Defect-Detection-and-Correction/
-├── cnn/ # CNN training, evaluation, inference
-├── robotics/ # Webots-based robotic integration
-├── models/ # Trained model weights
-└── README.md
+→ ROS2 decision node
 
-## CNN Module
-The `cnn/` directory contains:
-- Training script
-- Evaluation pipeline
-- Single-image inference
+→ MoveIt2 motion planning
 
-The CNN is based on **ResNet18** with transfer learning and is optimized for high defect recall in industrial inspection.
+→ UR5e picks defective part → drops at disposal location → returns to inspect
 
-## Robotics Module
-The `robotics/` directory demonstrates deployment of the trained model inside a Webots simulation using a camera sensor.
+## Repository Structure
+├── CNN/          # ResNet18 training, DAGM 2007 dataset, model weights
 
-## Dataset
-The dataset is not included. Refer to `cnn/dataset.md` for details.
+├── Robotics/     # ROS2 Jazzy pipeline, Gazebo Harmonic simulation
 
-## Model Weights
+└── Experimental/ # Early prototypes and experiments
+------------------------------------------------------------------------------------------------------------------
+## Results
 
-The trained ResNet18 model (~45 MB) is provided separately via GitHub Releases.
+| Metric | Value |
+|---|---|
+| Validation Accuracy | 91% |
+| Defect F1-Score | 0.85 |
+| Dataset | DAGM 2007 (binary: defect / ok) |
+| Robot | Universal Robots UR5e |
+| Simulation | Gazebo Harmonic |
 
-Download link:
-https://github.com/9scarface11/Automatic-Paint-Defect-Detection-and-Correction/releases
+## Stack
 
-Expected path:
-models/paint_defect_resnet18.pth
+- **Perception:** PyTorch, ResNet18, OpenCV, cv_bridge
+- **Robot Middleware:** ROS2 Jazzy, ros2_control, gz_ros2_control
+- **Motion Planning:** MoveIt2, OMPL (RRTConnect)
+- **Simulation:** Gazebo Harmonic, Gz Sim
+- **Robot Model:** Universal Robots UR5e
 
----
+## How They Connect
 
-This repository demonstrates practical application of convolutional neural networks for industrial defect detection, along with optional system-level integration.
-
+The `CNN/` folder contains the standalone training pipeline. The trained `model.pth` is loaded at runtime by the ROS2 `cnn_node` in `Robotics/`, which subscribes to the robot's camera topic, runs inference on each frame, and publishes the result. The `moveit_commander_node` receives that result and triggers the appropriate arm motion sequence via MoveIt2.
